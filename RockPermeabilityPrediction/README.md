@@ -1,5 +1,4 @@
-# Adv_Data_Science_Cap
-## BP Reservoir Permeability -- Measurements on rock samples for rock permeability
+# BP Reservoir Permeability -- Measurements on rock samples for rock permeability
 
 For a description of the data set used for this project, please read the introduction in the main file "BP_Reservoir_Permeability_WatsonStudio.ipynb"
 
