@@ -1,3 +1,3 @@
-# Data_Science_Cap
+# Shopping Mall development in Charlotte, North Carolina, U.S.A.
 
-As always, data cleaning and wrangling takes the longest time. Analysis is a rather quick process.
+The objective of this report is to analyze and select the best locations in Charlotte to open a new shopping mall. We will use the data science methodology and machine learning techniques like clustering, this project aims to provide solutions to answer the business question: In the city of Charlotte, NC, a property developer is looking to open a new shopping mall. where are the most promising neighborhoods with least competition and most likely business success?
