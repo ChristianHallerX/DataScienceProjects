@@ -12,6 +12,8 @@ For a more contents visit https://christianhallerx.github.io/
 	- [Detecting Parkinson’s Disease](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Detecting_Parkinsons.ipynb): Classifying speech recordings of PD patients and healthy candidates.<br/>Libraries: XGBoost.
 
 	- [House Sales and Price Prediction in King County (Seattle)](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/House_Sales_and_Price_Prediction_King_County(Seattle).ipynb): The project explores different house sales features and regression modelling techniques for optimizing price prediction.<br/>Libraries: SciKit-Learn.
+	
+	- [Permeability Prediction from Thin Sections](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/RockPermeabilityPrediction/Reservoir_Permeability_WatsonStudio.ipynb): Evaluation of various Machine Learning/Deep Learning using Cross Validation algorithms trained on reservoir-rock thin sections. Deployment on cloud for inference.<br/>Libraries: SciKit-Learn, TensorFlow, Keras, NumPy, Pandas, Matplotlib, Seaborn.
 
 
 - Natural Language Processing
@@ -35,3 +37,5 @@ For a more contents visit https://christianhallerx.github.io/
 	- [Brent Crude Oil price prediction with LSTM](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Brent_crude_prediction.ipynb): Price time-series modeling with LSTM and comparison of performance of Mean Absolute Error and Mean Square Error.<br/>Libraries: TensorFlow, Keras.
 	
 	- [Drowsiness Detection in Real Time](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Drowsiness_detection_main.ipynb): Detect closed eyes in real-time video footage, such as a webcam feed.<br/>Libraries: OpenCV.
+	
+	- [Image Mulitclass Classification in TensorFlow: Rock - Paper - Scissors](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/TensorFlow_rock_paper_scissors.ipynb): Detect closed eyes in real-time video footage, such as a webcam feed.<br/>Libraries: OpenCV.
