@@ -21,6 +21,9 @@ For a more contents visit https://christianhallerx.github.io/
 	- [Three-Way Sentiment Analysis for Twitter Tweets](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Three-Way%20Sentiment%20Analysis%20for%20Tweets.ipynb): Twitter sentiment analysis (positive, negative, neutral) classification model for tweets, without using NLTK's sentiment analysis engine.<br/>Libraries: NLTK, SciKit-Learn.
 	
 	- [Two-Way IMDB Film Database Sentiment Analysis](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Three-Way%20Sentiment%20Analysis%20for%20Tweets.ipynb): Analyze 25,000 movie reviews in IMDB if positive (1) or negative (0) sentiment with a relatively simple LSTM (Recurrent Neural Network).<br/>Libraries: TensorFlow, Keras.
+	
+	- [Medical Chatbot with NLTK](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Medical_Chatbot_with_NLTK_main.ipynb): Ingest communication and responses to train an NLP model. Then implement a GUI to make inferences and interact with the catbot and get respones.<br/>Libraries: NLTK, TensorFlow, Keras, Numpy, tkinter.
+	
 
 
 - Data Analysis and Visualisation
