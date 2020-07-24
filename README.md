@@ -14,6 +14,10 @@ For a more contents visit https://christianhallerx.github.io/
 	- [House Sales and Price Prediction in King County (Seattle)](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/House_Sales_and_Price_Prediction_King_County(Seattle).ipynb): The project explores different house sales features and regression modelling techniques for optimizing price prediction.<br/>Libraries: SciKit-Learn.
 	
 	- [Permeability Prediction from Thin Sections](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/RockPermeabilityPrediction/Reservoir_Permeability_WatsonStudio.ipynb): Evaluation of various Machine Learning/Deep Learning using Cross Validation algorithms trained on reservoir-rock thin sections. Deployment on cloud for inference.<br/>Libraries: SciKit-Learn, TensorFlow, Keras, NumPy, Pandas, Matplotlib, Seaborn.
+	
+	- [Sonar (chirp) Data Classification of Underwater Mines and Rocks](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Sonar_classification_NN_GridSearch.ipynb): Train neural networks on sonar data. Prediction will distinguish two classes: rock and mine (i.e., metal surface). Use various neural network designs and a grid searches on each design to find an optimal model.<br/>Libraries: SciKit-Learn, TensorFlow, Keras, NumPy, Pandas, Matplotlib.
+	
+	
 
 
 - Natural Language Processing
