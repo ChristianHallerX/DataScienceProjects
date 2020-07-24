@@ -19,6 +19,8 @@ For a more contents visit https://christianhallerx.github.io/
 - Natural Language Processing
 
 	- [Three-Way Sentiment Analysis for Twitter Tweets](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Three-Way%20Sentiment%20Analysis%20for%20Tweets.ipynb): Twitter sentiment analysis (positive, negative, neutral) classification model for tweets, without using NLTK's sentiment analysis engine.<br/>Libraries: NLTK, SciKit-Learn.
+	
+	- [Two-Way IMDB Film Database Sentiment Analysis](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Three-Way%20Sentiment%20Analysis%20for%20Tweets.ipynb): Analyze 25,000 movie reviews in IMDB if positive (1) or negative (0) sentiment with a relatively simple LSTM (Recurrent Neural Network).<br/>Libraries: TensorFlow, Keras.
 
 
 - Data Analysis and Visualisation
@@ -28,6 +30,8 @@ For a more contents visit https://christianhallerx.github.io/
 	- [Toronto Neighborhoods Analysis](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Toronto_Neighborhoods_Analysis.ipynb): The project explores the Wikipedia data on Toronto (Canada) neighbourhoods with the post code M and will create labelled, interactive maps.<br/>Libraries: Pandas, BeautifulSoup, Folium.
 	
 	- [Shopping Mall development in Charlotte, North Carolina, U.S.A.](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/ShoppingMallDevelopment/Charlotte_new_mall.ipynb): City and Foursquare data on shopping malls is compared and knn-clustered by shopping-mall density per neighborhood to offer insight where new shopping malls may be a good fit.<br/>Libraries: Pandas, BeautifulSoup, SciKit-Learn, Foursquare-API, ESRI geocoding, Folium.
+	
+	- [Market Analysis for Tech Stocks](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Stock_Market_Analysis.ipynb): Ingest, visualize, evaluate risk, and Monte-Carlo simulate prices for some technology stocks: Apple, Google, Microsoft, Amazon.<br/>Libraries: Pandas, Numpy, Matplotlib, Seaborn.
 
 
 
