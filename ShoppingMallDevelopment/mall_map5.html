@@ -1,0 +1,1830 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d135b930ac194edeb1f9247357bd12fa {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_d135b930ac194edeb1f9247357bd12fa" ></div>
+        
+</body>
+<script>    
+    
+            var map_d135b930ac194edeb1f9247357bd12fa = L.map(
+                "map_d135b930ac194edeb1f9247357bd12fa",
+                {
+                    center: [35.2272, -80.843083],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5776143ac5604f9aa64d7a31d27f6aee = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+            var circle_marker_55f50dc383134aabb32a887e3f54509d = L.circleMarker(
+                [35.097830000000044, -80.78445999999997],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_883b75973e714c238e51a004b896d74d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_462b9fd932ab4fe7a2fb0b82e2b8c56d = $(`<div id="html_462b9fd932ab4fe7a2fb0b82e2b8c56d" style="width: 100.0%; height: 100.0%;">Arboretum, South Charlotte</div>`)[0];
+            popup_883b75973e714c238e51a004b896d74d.setContent(html_462b9fd932ab4fe7a2fb0b82e2b8c56d);
+        
+
+        circle_marker_55f50dc383134aabb32a887e3f54509d.bindPopup(popup_883b75973e714c238e51a004b896d74d)
+        ;
+
+        
+    
+    
+            var circle_marker_631adf6756ac4266bc2185a8bd568650 = L.circleMarker(
+                [35.13855915534606, -80.93535293939767],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_5a274092b6f64a1981c57769bdaa01cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d27b3e980df94335bc16b5feeb6e905a = $(`<div id="html_d27b3e980df94335bc16b5feeb6e905a" style="width: 100.0%; height: 100.0%;">Ayrsley, South Charlotte</div>`)[0];
+            popup_5a274092b6f64a1981c57769bdaa01cc.setContent(html_d27b3e980df94335bc16b5feeb6e905a);
+        
+
+        circle_marker_631adf6756ac4266bc2185a8bd568650.bindPopup(popup_5a274092b6f64a1981c57769bdaa01cc)
+        ;
+
+        
+    
+    
+            var circle_marker_4e802f874dd9414b8fc6d9925fa8c436 = L.circleMarker(
+                [35.057650000000024, -80.84632999999997],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_bc33e88bc3f84a76a49b7ab936dac96a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ddac4da0df14542a545a7da0657b249 = $(`<div id="html_2ddac4da0df14542a545a7da0657b249" style="width: 100.0%; height: 100.0%;">Ballantyne, South Charlotte</div>`)[0];
+            popup_bc33e88bc3f84a76a49b7ab936dac96a.setContent(html_2ddac4da0df14542a545a7da0657b249);
+        
+
+        circle_marker_4e802f874dd9414b8fc6d9925fa8c436.bindPopup(popup_bc33e88bc3f84a76a49b7ab936dac96a)
+        ;
+
+        
+    
+    
+            var circle_marker_ba0171146ee34b1c981168d0718befe5 = L.circleMarker(
+                [35.16086000000007, -80.83742999999998],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_37b284c958644bac8613ce11efe5d3b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61d2ea46050749c393e38c19d4631815 = $(`<div id="html_61d2ea46050749c393e38c19d4631815" style="width: 100.0%; height: 100.0%;">Barclay Downs, South Charlotte</div>`)[0];
+            popup_37b284c958644bac8613ce11efe5d3b8.setContent(html_61d2ea46050749c393e38c19d4631815);
+        
+
+        circle_marker_ba0171146ee34b1c981168d0718befe5.bindPopup(popup_37b284c958644bac8613ce11efe5d3b8)
+        ;
+
+        
+    
+    
+            var circle_marker_1296d5d3d85643fea71e75abc1a6cf4c = L.circleMarker(
+                [35.13531000000006, -80.84378999999996],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_b0eacae3f3ef44c6860e63fabde368d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0df3f9e43aa4fd6914b6e5c98e5deba = $(`<div id="html_e0df3f9e43aa4fd6914b6e5c98e5deba" style="width: 100.0%; height: 100.0%;">Beverly Woods, South Charlotte</div>`)[0];
+            popup_b0eacae3f3ef44c6860e63fabde368d5.setContent(html_e0df3f9e43aa4fd6914b6e5c98e5deba);
+        
+
+        circle_marker_1296d5d3d85643fea71e75abc1a6cf4c.bindPopup(popup_b0eacae3f3ef44c6860e63fabde368d5)
+        ;
+
+        
+    
+    
+            var circle_marker_7a734252ae2c4a9cbbf1a8ba00bd6f53 = L.circleMarker(
+                [35.037060000000054, -80.80554999999998],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_1a90e031f97d4d51913c4b47527cd590 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39b83935507f424d970a176c1c2fad21 = $(`<div id="html_39b83935507f424d970a176c1c2fad21" style="width: 100.0%; height: 100.0%;">Blakeney, South Charlotte</div>`)[0];
+            popup_1a90e031f97d4d51913c4b47527cd590.setContent(html_39b83935507f424d970a176c1c2fad21);
+        
+
+        circle_marker_7a734252ae2c4a9cbbf1a8ba00bd6f53.bindPopup(popup_1a90e031f97d4d51913c4b47527cd590)
+        ;
+
+        
+    
+    
+            var circle_marker_bc756dd965f648da925a93c6fd00566c = L.circleMarker(
+                [35.10431937603383, -80.85229029402791],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_8c77c80157784cbc876b45f3e1dc8b7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd8d777c35b24c9cb3bd067dede96c7d = $(`<div id="html_dd8d777c35b24c9cb3bd067dede96c7d" style="width: 100.0%; height: 100.0%;">Cameron Wood, South Charlotte</div>`)[0];
+            popup_8c77c80157784cbc876b45f3e1dc8b7b.setContent(html_dd8d777c35b24c9cb3bd067dede96c7d);
+        
+
+        circle_marker_bc756dd965f648da925a93c6fd00566c.bindPopup(popup_8c77c80157784cbc876b45f3e1dc8b7b)
+        ;
+
+        
+    
+    
+            var circle_marker_bf6a9b5c15d645a8b2684d00dedcc986 = L.circleMarker(
+                [35.08593292768852, -80.84608807683885],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_6a941315fda14db89eea0e84cd01db36 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_097d3c5f7a304099974f9fa50933f6f1 = $(`<div id="html_097d3c5f7a304099974f9fa50933f6f1" style="width: 100.0%; height: 100.0%;">Carmel Village, South Charlotte</div>`)[0];
+            popup_6a941315fda14db89eea0e84cd01db36.setContent(html_097d3c5f7a304099974f9fa50933f6f1);
+        
+
+        circle_marker_bf6a9b5c15d645a8b2684d00dedcc986.bindPopup(popup_6a941315fda14db89eea0e84cd01db36)
+        ;
+
+        
+    
+    
+            var circle_marker_ad33e7e4601844988296201b72ad15c7 = L.circleMarker(
+                [35.21339000000006, -80.81006999999994],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_84641660618947ccba918eb2bff285dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12d6ff67adef4897baff1c298504884a = $(`<div id="html_12d6ff67adef4897baff1c298504884a" style="width: 100.0%; height: 100.0%;">Chantilly, South Charlotte</div>`)[0];
+            popup_84641660618947ccba918eb2bff285dc.setContent(html_12d6ff67adef4897baff1c298504884a);
+        
+
+        circle_marker_ad33e7e4601844988296201b72ad15c7.bindPopup(popup_84641660618947ccba918eb2bff285dc)
+        ;
+
+        
+    
+    
+            var circle_marker_bb5c41d647844c9e948d23faf0c5613c = L.circleMarker(
+                [35.21063000000004, -80.83080999999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_6a2ebf07281141f88226f12529796a68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3e40ee3070f4003b3f87a02071b885b = $(`<div id="html_c3e40ee3070f4003b3f87a02071b885b" style="width: 100.0%; height: 100.0%;">Cherry, South Charlotte</div>`)[0];
+            popup_6a2ebf07281141f88226f12529796a68.setContent(html_c3e40ee3070f4003b3f87a02071b885b);
+        
+
+        circle_marker_bb5c41d647844c9e948d23faf0c5613c.bindPopup(popup_6a2ebf07281141f88226f12529796a68)
+        ;
+
+        
+    
+    
+            var circle_marker_da487bf18b064bdbb01462ba498943ab = L.circleMarker(
+                [35.18119000000007, -80.79833999999994],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_00c3a6ca62284a7fb6fb519a4f2fb88c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_beadc3d39378420eaa4bd6a0952bbce1 = $(`<div id="html_beadc3d39378420eaa4bd6a0952bbce1" style="width: 100.0%; height: 100.0%;">Cotswold, South Charlotte</div>`)[0];
+            popup_00c3a6ca62284a7fb6fb519a4f2fb88c.setContent(html_beadc3d39378420eaa4bd6a0952bbce1);
+        
+
+        circle_marker_da487bf18b064bdbb01462ba498943ab.bindPopup(popup_00c3a6ca62284a7fb6fb519a4f2fb88c)
+        ;
+
+        
+    
+    
+            var circle_marker_868e202dce534ac4b8cde7b8bb969a6e = L.circleMarker(
+                [35.20959000000005, -80.84760999999997],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_45909c80222748bc8f8cc8311eb3d3a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_081cc91b239644c4bfa2fcde79bbe782 = $(`<div id="html_081cc91b239644c4bfa2fcde79bbe782" style="width: 100.0%; height: 100.0%;">Dilworth, South Charlotte</div>`)[0];
+            popup_45909c80222748bc8f8cc8311eb3d3a3.setContent(html_081cc91b239644c4bfa2fcde79bbe782);
+        
+
+        circle_marker_868e202dce534ac4b8cde7b8bb969a6e.bindPopup(popup_45909c80222748bc8f8cc8311eb3d3a3)
+        ;
+
+        
+    
+    
+            var circle_marker_78813116388047158737e977aab64b47 = L.circleMarker(
+                [35.196330000000046, -80.81890999999996],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_54bd50743c4f4ff2b2a5d0eb72ed4e80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87c5f113b97d419b901b52a2b949d4b9 = $(`<div id="html_87c5f113b97d419b901b52a2b949d4b9" style="width: 100.0%; height: 100.0%;">Eastover, South Charlotte</div>`)[0];
+            popup_54bd50743c4f4ff2b2a5d0eb72ed4e80.setContent(html_87c5f113b97d419b901b52a2b949d4b9);
+        
+
+        circle_marker_78813116388047158737e977aab64b47.bindPopup(popup_54bd50743c4f4ff2b2a5d0eb72ed4e80)
+        ;
+
+        
+    
+    
+            var circle_marker_1485cea85f6a43fb9b611ab40499e45e = L.circleMarker(
+                [35.196830000000034, -80.80510999999996],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_8ffcd14ee8e349a4bcee1c01b5a0f541 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c54e82085264594b2d7d26f8cba8afe = $(`<div id="html_9c54e82085264594b2d7d26f8cba8afe" style="width: 100.0%; height: 100.0%;">Grier Heights, South Charlotte</div>`)[0];
+            popup_8ffcd14ee8e349a4bcee1c01b5a0f541.setContent(html_9c54e82085264594b2d7d26f8cba8afe);
+        
+
+        circle_marker_1485cea85f6a43fb9b611ab40499e45e.bindPopup(popup_8ffcd14ee8e349a4bcee1c01b5a0f541)
+        ;
+
+        
+    
+    
+            var circle_marker_8b66da7c3ab34029a131b1b5e6b07342 = L.circleMarker(
+                [35.20688592233113, -80.86008597468833],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_81f347c16cc74f2cac5c1b47553b32cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a4f7d0fb4594ef3bfa3dd9e8f3b0d0e = $(`<div id="html_2a4f7d0fb4594ef3bfa3dd9e8f3b0d0e" style="width: 100.0%; height: 100.0%;">South End, South Charlotte</div>`)[0];
+            popup_81f347c16cc74f2cac5c1b47553b32cb.setContent(html_2a4f7d0fb4594ef3bfa3dd9e8f3b0d0e);
+        
+
+        circle_marker_8b66da7c3ab34029a131b1b5e6b07342.bindPopup(popup_81f347c16cc74f2cac5c1b47553b32cb)
+        ;
+
+        
+    
+    
+            var circle_marker_12e5a813d8b84b399c6b5213d6122710 = L.circleMarker(
+                [35.14559000000003, -80.78254999999996],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_d42d0a57293340178b9d70c3e94cd2e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94f0adc4a21c48a28b6a689f0703e50a = $(`<div id="html_94f0adc4a21c48a28b6a689f0703e50a" style="width: 100.0%; height: 100.0%;">Landsdowne, South Charlotte</div>`)[0];
+            popup_d42d0a57293340178b9d70c3e94cd2e7.setContent(html_94f0adc4a21c48a28b6a689f0703e50a);
+        
+
+        circle_marker_12e5a813d8b84b399c6b5213d6122710.bindPopup(popup_d42d0a57293340178b9d70c3e94cd2e7)
+        ;
+
+        
+    
+    
+            var circle_marker_9b40e394fdba4e2589afd008b92e0d8b = L.circleMarker(
+                [35.16747000000004, -80.86165999999997],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_c863e668b02542ac8ed2c1dbd420c270 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a17ff5f6b12e482c9907795b96c5e0e8 = $(`<div id="html_a17ff5f6b12e482c9907795b96c5e0e8" style="width: 100.0%; height: 100.0%;">Madison Park, South Charlotte</div>`)[0];
+            popup_c863e668b02542ac8ed2c1dbd420c270.setContent(html_a17ff5f6b12e482c9907795b96c5e0e8);
+        
+
+        circle_marker_9b40e394fdba4e2589afd008b92e0d8b.bindPopup(popup_c863e668b02542ac8ed2c1dbd420c270)
+        ;
+
+        
+    
+    
+            var circle_marker_19c1afad0caf4b49aff9f54568f13c51 = L.circleMarker(
+                [35.197370000000035, -80.83222999999998],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_c9717177e7d64933a74d7d2b118604d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc927dc0ccab4f838dbf1c0753daad4e = $(`<div id="html_dc927dc0ccab4f838dbf1c0753daad4e" style="width: 100.0%; height: 100.0%;">Myers Park, South Charlotte</div>`)[0];
+            popup_c9717177e7d64933a74d7d2b118604d0.setContent(html_dc927dc0ccab4f838dbf1c0753daad4e);
+        
+
+        circle_marker_19c1afad0caf4b49aff9f54568f13c51.bindPopup(popup_c9717177e7d64933a74d7d2b118604d0)
+        ;
+
+        
+    
+    
+            var circle_marker_6ca65f4fe59a4d72ba77d9df9ccfc27d = L.circleMarker(
+                [35.125589869964415, -80.89970095712087],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_e982f195cad342cd8d0c93712c12c86d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_edb8946a0b2d420fa2ab58d77e0b42c8 = $(`<div id="html_edb8946a0b2d420fa2ab58d77e0b42c8" style="width: 100.0%; height: 100.0%;">Nations Ford, South Charlotte</div>`)[0];
+            popup_e982f195cad342cd8d0c93712c12c86d.setContent(html_edb8946a0b2d420fa2ab58d77e0b42c8);
+        
+
+        circle_marker_6ca65f4fe59a4d72ba77d9df9ccfc27d.bindPopup(popup_e982f195cad342cd8d0c93712c12c86d)
+        ;
+
+        
+    
+    
+            var circle_marker_393a14b8486242239cb25b00edae3c51 = L.circleMarker(
+                [35.25172666007845, -80.90593964113206],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_a3c81bb371cc4722a0202350ca1bc46b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad233115fcee4631bf5ae2cef2ce8f00 = $(`<div id="html_ad233115fcee4631bf5ae2cef2ce8f00" style="width: 100.0%; height: 100.0%;">Parkdale, South Charlotte</div>`)[0];
+            popup_a3c81bb371cc4722a0202350ca1bc46b.setContent(html_ad233115fcee4631bf5ae2cef2ce8f00);
+        
+
+        circle_marker_393a14b8486242239cb25b00edae3c51.bindPopup(popup_a3c81bb371cc4722a0202350ca1bc46b)
+        ;
+
+        
+    
+    
+            var circle_marker_52edc7a5d9ba44bd90f4fd0ffdbff5a6 = L.circleMarker(
+                [35.074139833101874, -80.80900961830241],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_60ff0ef187314c8aa12af73dc52697c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ab9c8a8d75b438cba19a7abdfc27c5f = $(`<div id="html_3ab9c8a8d75b438cba19a7abdfc27c5f" style="width: 100.0%; height: 100.0%;">Piper Glen, South Charlotte</div>`)[0];
+            popup_60ff0ef187314c8aa12af73dc52697c5.setContent(html_3ab9c8a8d75b438cba19a7abdfc27c5f);
+        
+
+        circle_marker_52edc7a5d9ba44bd90f4fd0ffdbff5a6.bindPopup(popup_60ff0ef187314c8aa12af73dc52697c5)
+        ;
+
+        
+    
+    
+            var circle_marker_e1bf123f67584157948ff851b74d4d94 = L.circleMarker(
+                [35.13388000000003, -80.86051999999995],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_fbd66df3c6f94f9caf7e029c1531a69a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54b030b77e784b168ec8215198eb4aad = $(`<div id="html_54b030b77e784b168ec8215198eb4aad" style="width: 100.0%; height: 100.0%;">Quail Hollow, South Charlotte</div>`)[0];
+            popup_fbd66df3c6f94f9caf7e029c1531a69a.setContent(html_54b030b77e784b168ec8215198eb4aad);
+        
+
+        circle_marker_e1bf123f67584157948ff851b74d4d94.bindPopup(popup_fbd66df3c6f94f9caf7e029c1531a69a)
+        ;
+
+        
+    
+    
+            var circle_marker_ad689861eac04feda6784e279efc11ff = L.circleMarker(
+                [35.22294395910299, -80.70976691376866],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_03857f53533a4e8bb1346b9be5894441 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b408230375654bbebd7197b06870bd29 = $(`<div id="html_b408230375654bbebd7197b06870bd29" style="width: 100.0%; height: 100.0%;">Raeburn, South Charlotte</div>`)[0];
+            popup_03857f53533a4e8bb1346b9be5894441.setContent(html_b408230375654bbebd7197b06870bd29);
+        
+
+        circle_marker_ad689861eac04feda6784e279efc11ff.bindPopup(popup_03857f53533a4e8bb1346b9be5894441)
+        ;
+
+        
+    
+    
+            var circle_marker_0975df1530c84e27bbf5dd233e73c0d4 = L.circleMarker(
+                [35.19259000000005, -80.86362999999994],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_23ef14b80e134066976983dc440e3022 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd296f983f044c1db7aac8a6e5d096ac = $(`<div id="html_fd296f983f044c1db7aac8a6e5d096ac" style="width: 100.0%; height: 100.0%;">Sedgefield, South Charlotte</div>`)[0];
+            popup_23ef14b80e134066976983dc440e3022.setContent(html_fd296f983f044c1db7aac8a6e5d096ac);
+        
+
+        circle_marker_0975df1530c84e27bbf5dd233e73c0d4.bindPopup(popup_23ef14b80e134066976983dc440e3022)
+        ;
+
+        
+    
+    
+            var circle_marker_7da1fcf2c5b5423f8d9bd28d0bc5da95 = L.circleMarker(
+                [35.15447297301851, -80.83251429321943],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_24e3cfa347a74347bd07a64f190d1efa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5d54e9a742445318bb62dc43431bf56 = $(`<div id="html_e5d54e9a742445318bb62dc43431bf56" style="width: 100.0%; height: 100.0%;">SouthPark, South Charlotte</div>`)[0];
+            popup_24e3cfa347a74347bd07a64f190d1efa.setContent(html_e5d54e9a742445318bb62dc43431bf56);
+        
+
+        circle_marker_7da1fcf2c5b5423f8d9bd28d0bc5da95.bindPopup(popup_24e3cfa347a74347bd07a64f190d1efa)
+        ;
+
+        
+    
+    
+            var circle_marker_8d8778f4e2284a9e8aee509a68444409 = L.circleMarker(
+                [35.14067000000006, -80.87282999999996],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_58a7378d9a8349959d68174dae30942d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6cc63bd485a4d7a8caeeb02ab5f8f74 = $(`<div id="html_e6cc63bd485a4d7a8caeeb02ab5f8f74" style="width: 100.0%; height: 100.0%;">Starmount, South Charlotte</div>`)[0];
+            popup_58a7378d9a8349959d68174dae30942d.setContent(html_e6cc63bd485a4d7a8caeeb02ab5f8f74);
+        
+
+        circle_marker_8d8778f4e2284a9e8aee509a68444409.bindPopup(popup_58a7378d9a8349959d68174dae30942d)
+        ;
+
+        
+    
+    
+            var circle_marker_6f08bbd6c26d499b8e3b655554a11c06 = L.circleMarker(
+                [35.12322000000006, -80.98690999999997],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_be7b514fd5924d1e9706d4e6bb147b04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f681e880edfc4cc2b7adeea1d43ce6ad = $(`<div id="html_f681e880edfc4cc2b7adeea1d43ce6ad" style="width: 100.0%; height: 100.0%;">Steele Creek, South Charlotte</div>`)[0];
+            popup_be7b514fd5924d1e9706d4e6bb147b04.setContent(html_f681e880edfc4cc2b7adeea1d43ce6ad);
+        
+
+        circle_marker_6f08bbd6c26d499b8e3b655554a11c06.bindPopup(popup_be7b514fd5924d1e9706d4e6bb147b04)
+        ;
+
+        
+    
+    
+            var circle_marker_e8bf6f25ce6d4ae3a547efd7ee745deb = L.circleMarker(
+                [35.09912000000003, -80.97071999999997],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_1b6589dca1214a20b0d74c59b89a3395 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88398f11126049b59c5bfc021ca3c025 = $(`<div id="html_88398f11126049b59c5bfc021ca3c025" style="width: 100.0%; height: 100.0%;">Yorkshire, South Charlotte</div>`)[0];
+            popup_1b6589dca1214a20b0d74c59b89a3395.setContent(html_88398f11126049b59c5bfc021ca3c025);
+        
+
+        circle_marker_e8bf6f25ce6d4ae3a547efd7ee745deb.bindPopup(popup_1b6589dca1214a20b0d74c59b89a3395)
+        ;
+
+        
+    
+    
+            var circle_marker_b9e08c816d7c4d64b844e41b483a61cc = L.circleMarker(
+                [35.230540000000076, -80.88416999999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_19a626b606974ad99583974062a0a8eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_619ef3ee8fac4871b8019eeac7b63cb6 = $(`<div id="html_619ef3ee8fac4871b8019eeac7b63cb6" style="width: 100.0%; height: 100.0%;">Ashley Park, West Charlotte</div>`)[0];
+            popup_19a626b606974ad99583974062a0a8eb.setContent(html_619ef3ee8fac4871b8019eeac7b63cb6);
+        
+
+        circle_marker_b9e08c816d7c4d64b844e41b483a61cc.bindPopup(popup_19a626b606974ad99583974062a0a8eb)
+        ;
+
+        
+    
+    
+            var circle_marker_66cf7df1ee0e4ab7a764685a1d868577 = L.circleMarker(
+                [35.15374000000003, -80.99536999999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_379c7a1ffa4a4dc8b1386437c1ec9528 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82e0a1fc90674f30a3a93427c5aa1924 = $(`<div id="html_82e0a1fc90674f30a3a93427c5aa1924" style="width: 100.0%; height: 100.0%;">Dixie/Berryhill, West Charlotte</div>`)[0];
+            popup_379c7a1ffa4a4dc8b1386437c1ec9528.setContent(html_82e0a1fc90674f30a3a93427c5aa1924);
+        
+
+        circle_marker_66cf7df1ee0e4ab7a764685a1d868577.bindPopup(popup_379c7a1ffa4a4dc8b1386437c1ec9528)
+        ;
+
+        
+    
+    
+            var circle_marker_c43b97b2137a45e4a05a09f744737425 = L.circleMarker(
+                [35.24550000000005, -80.85698999999994],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_164ecd0d28ce4772934c06ddcf3616ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ece83f0e5804d44a96894beaf939815 = $(`<div id="html_0ece83f0e5804d44a96894beaf939815" style="width: 100.0%; height: 100.0%;">Biddleville, West Charlotte</div>`)[0];
+            popup_164ecd0d28ce4772934c06ddcf3616ec.setContent(html_0ece83f0e5804d44a96894beaf939815);
+        
+
+        circle_marker_c43b97b2137a45e4a05a09f744737425.bindPopup(popup_164ecd0d28ce4772934c06ddcf3616ec)
+        ;
+
+        
+    
+    
+            var circle_marker_66161884632b411e83039139c0a5f161 = L.circleMarker(
+                [35.23257067526388, -80.88302212953589],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_04d7d4a4f6dd4a6d8788847e0ff37d52 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc86a1c83be1404982c62b66672037ad = $(`<div id="html_cc86a1c83be1404982c62b66672037ad" style="width: 100.0%; height: 100.0%;">Camp Greene, West Charlotte</div>`)[0];
+            popup_04d7d4a4f6dd4a6d8788847e0ff37d52.setContent(html_cc86a1c83be1404982c62b66672037ad);
+        
+
+        circle_marker_66161884632b411e83039139c0a5f161.bindPopup(popup_04d7d4a4f6dd4a6d8788847e0ff37d52)
+        ;
+
+        
+    
+    
+            var circle_marker_d1db8164fa864169b57e62db0daf0985 = L.circleMarker(
+                [35.20688000000007, -80.89252999999997],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_74fc641ca4e547a7ad72106af2bdb73b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4999b60041774ec7a010570cee2eb25e = $(`<div id="html_4999b60041774ec7a010570cee2eb25e" style="width: 100.0%; height: 100.0%;">Clanton Park, West Charlotte</div>`)[0];
+            popup_74fc641ca4e547a7ad72106af2bdb73b.setContent(html_4999b60041774ec7a010570cee2eb25e);
+        
+
+        circle_marker_d1db8164fa864169b57e62db0daf0985.bindPopup(popup_74fc641ca4e547a7ad72106af2bdb73b)
+        ;
+
+        
+    
+    
+            var circle_marker_3e9b6b14d533497fb7e825aa7d1ebd29 = L.circleMarker(
+                [35.21061000000003, -80.89993999999996],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_5ddc946b3ff4490599904acb55a2332f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0924a1e6280247e9b05828bdc6e6d5d7 = $(`<div id="html_0924a1e6280247e9b05828bdc6e6d5d7" style="width: 100.0%; height: 100.0%;">Reid Park, West Charlotte</div>`)[0];
+            popup_5ddc946b3ff4490599904acb55a2332f.setContent(html_0924a1e6280247e9b05828bdc6e6d5d7);
+        
+
+        circle_marker_3e9b6b14d533497fb7e825aa7d1ebd29.bindPopup(popup_5ddc946b3ff4490599904acb55a2332f)
+        ;
+
+        
+    
+    
+            var circle_marker_cdf7ef5981ab48caa30233f9493f176a = L.circleMarker(
+                [35.297543475585194, -80.94605424863006],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_a06fc6a0259c485bb58d78cdc32c12c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03f3becae43a4e1dbf7cee515702e717 = $(`<div id="html_03f3becae43a4e1dbf7cee515702e717" style="width: 100.0%; height: 100.0%;">Coulwood, West Charlotte</div>`)[0];
+            popup_a06fc6a0259c485bb58d78cdc32c12c2.setContent(html_03f3becae43a4e1dbf7cee515702e717);
+        
+
+        circle_marker_cdf7ef5981ab48caa30233f9493f176a.bindPopup(popup_a06fc6a0259c485bb58d78cdc32c12c2)
+        ;
+
+        
+    
+    
+            var circle_marker_5cde0f4b078e4f8d8e54fca4abf07fd3 = L.circleMarker(
+                [35.244980000000055, -80.88447999999994],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_1973e188af4f4973b5b22d2800045786 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_170246274e3e4ecf8fa9de97b1ba7351 = $(`<div id="html_170246274e3e4ecf8fa9de97b1ba7351" style="width: 100.0%; height: 100.0%;">Enderly Park, West Charlotte</div>`)[0];
+            popup_1973e188af4f4973b5b22d2800045786.setContent(html_170246274e3e4ecf8fa9de97b1ba7351);
+        
+
+        circle_marker_5cde0f4b078e4f8d8e54fca4abf07fd3.bindPopup(popup_1973e188af4f4973b5b22d2800045786)
+        ;
+
+        
+    
+    
+            var circle_marker_54ca4b340f194a6791af4c6e9e71aad8 = L.circleMarker(
+                [35.26342000000005, -80.84873999999996],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_ea3f0433c5324ddb8ce2386133f96174 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4062fe5a6a38471cb6560ec8cd11d1ff = $(`<div id="html_4062fe5a6a38471cb6560ec8cd11d1ff" style="width: 100.0%; height: 100.0%;">Lincoln Heights, West Charlotte</div>`)[0];
+            popup_ea3f0433c5324ddb8ce2386133f96174.setContent(html_4062fe5a6a38471cb6560ec8cd11d1ff);
+        
+
+        circle_marker_54ca4b340f194a6791af4c6e9e71aad8.bindPopup(popup_ea3f0433c5324ddb8ce2386133f96174)
+        ;
+
+        
+    
+    
+            var circle_marker_9ccc2b4bc78648e189ae18efdf470d0c = L.circleMarker(
+                [35.33311000000003, -80.93761999999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_4e9a56cc21ab4664b36ea9464154973c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2c003cb20c741bd8881867897c357b1 = $(`<div id="html_c2c003cb20c741bd8881867897c357b1" style="width: 100.0%; height: 100.0%;">Mountain Island, West Charlotte</div>`)[0];
+            popup_4e9a56cc21ab4664b36ea9464154973c.setContent(html_c2c003cb20c741bd8881867897c357b1);
+        
+
+        circle_marker_9ccc2b4bc78648e189ae18efdf470d0c.bindPopup(popup_4e9a56cc21ab4664b36ea9464154973c)
+        ;
+
+        
+    
+    
+            var circle_marker_97ec3825c38840929e9c1dad49578008 = L.circleMarker(
+                [35.286612123904604, -80.86575141773623],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_4794597cb4ca4490833d9f9a38844132 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4cfcea8abb84ccbac06c589867d53e3 = $(`<div id="html_f4cfcea8abb84ccbac06c589867d53e3" style="width: 100.0%; height: 100.0%;">Northwood Estates, West Charlotte</div>`)[0];
+            popup_4794597cb4ca4490833d9f9a38844132.setContent(html_f4cfcea8abb84ccbac06c589867d53e3);
+        
+
+        circle_marker_97ec3825c38840929e9c1dad49578008.bindPopup(popup_4794597cb4ca4490833d9f9a38844132)
+        ;
+
+        
+    
+    
+            var circle_marker_16824d829cd44ff2b90cf807ec0fc014 = L.circleMarker(
+                [35.26176000000004, -80.87246999999996],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_3c226117586d42c381be99ec22f6af5b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d02619b41b9843329df03855e427a0ce = $(`<div id="html_d02619b41b9843329df03855e427a0ce" style="width: 100.0%; height: 100.0%;">Oakview Terrace, West Charlotte</div>`)[0];
+            popup_3c226117586d42c381be99ec22f6af5b.setContent(html_d02619b41b9843329df03855e427a0ce);
+        
+
+        circle_marker_16824d829cd44ff2b90cf807ec0fc014.bindPopup(popup_3c226117586d42c381be99ec22f6af5b)
+        ;
+
+        
+    
+    
+            var circle_marker_7c9ec26e6d4a418eb7729e4ecec0ea69 = L.circleMarker(
+                [35.27589000000006, -80.94018999999997],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_75ee6cf05fd24ff59b903c5cf8913ab9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ccdef658ed3640f398d0991f0e2c413d = $(`<div id="html_ccdef658ed3640f398d0991f0e2c413d" style="width: 100.0%; height: 100.0%;">Paw Creek, West Charlotte</div>`)[0];
+            popup_75ee6cf05fd24ff59b903c5cf8913ab9.setContent(html_ccdef658ed3640f398d0991f0e2c413d);
+        
+
+        circle_marker_7c9ec26e6d4a418eb7729e4ecec0ea69.bindPopup(popup_75ee6cf05fd24ff59b903c5cf8913ab9)
+        ;
+
+        
+    
+    
+            var circle_marker_cbdb5381a5bd4c23a77ef6699eb3312c = L.circleMarker(
+                [35.21321000000006, -80.88352999999995],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_8c2bc549c4ec4f2db1d1f0a627b5382f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc6ab031ce934d8bbc1828ecdf4f7a66 = $(`<div id="html_cc6ab031ce934d8bbc1828ecdf4f7a66" style="width: 100.0%; height: 100.0%;">Revolution Park, West Charlotte</div>`)[0];
+            popup_8c2bc549c4ec4f2db1d1f0a627b5382f.setContent(html_cc6ab031ce934d8bbc1828ecdf4f7a66);
+        
+
+        circle_marker_cbdb5381a5bd4c23a77ef6699eb3312c.bindPopup(popup_8c2bc549c4ec4f2db1d1f0a627b5382f)
+        ;
+
+        
+    
+    
+            var circle_marker_1df0300adb7242c29015545853860a7d = L.circleMarker(
+                [35.17198521225504, -80.96853945155735],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_6a2b3bb4cb654bf9bb2d1dcdb0b9d316 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0df455313f35402588920ddd62553dc3 = $(`<div id="html_0df455313f35402588920ddd62553dc3" style="width: 100.0%; height: 100.0%;">Shopton, West Charlotte</div>`)[0];
+            popup_6a2b3bb4cb654bf9bb2d1dcdb0b9d316.setContent(html_0df455313f35402588920ddd62553dc3);
+        
+
+        circle_marker_1df0300adb7242c29015545853860a7d.bindPopup(popup_6a2b3bb4cb654bf9bb2d1dcdb0b9d316)
+        ;
+
+        
+    
+    
+            var circle_marker_799adb9f4fa547d096cb33b7b5ced15f = L.circleMarker(
+                [35.320670000000064, -80.95262999999994],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_08b0492d0d584d34ad65a8b5e76dbb19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a13d78c210746e3ac53dd0b20cca8f1 = $(`<div id="html_9a13d78c210746e3ac53dd0b20cca8f1" style="width: 100.0%; height: 100.0%;">Shuffletown, West Charlotte</div>`)[0];
+            popup_08b0492d0d584d34ad65a8b5e76dbb19.setContent(html_9a13d78c210746e3ac53dd0b20cca8f1);
+        
+
+        circle_marker_799adb9f4fa547d096cb33b7b5ced15f.bindPopup(popup_08b0492d0d584d34ad65a8b5e76dbb19)
+        ;
+
+        
+    
+    
+            var circle_marker_32720690809446088312558f3ac8a273 = L.circleMarker(
+                [35.26342000000005, -80.88759999999996],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_4a9c84af2d424a2fb60f95bb71279073 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ad9fcabf74b4de2855188416df22835 = $(`<div id="html_3ad9fcabf74b4de2855188416df22835" style="width: 100.0%; height: 100.0%;">Thomasboro/Hoskins, West Charlotte</div>`)[0];
+            popup_4a9c84af2d424a2fb60f95bb71279073.setContent(html_3ad9fcabf74b4de2855188416df22835);
+        
+
+        circle_marker_32720690809446088312558f3ac8a273.bindPopup(popup_4a9c84af2d424a2fb60f95bb71279073)
+        ;
+
+        
+    
+    
+            var circle_marker_12c1f250099c4d43872d33217d6e8567 = L.circleMarker(
+                [35.27838000000003, -80.91486999999995],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_aaf51eb86b484d1c82a38ddf99015a34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4fe78649a1434c429c176c809f6eccdb = $(`<div id="html_4fe78649a1434c429c176c809f6eccdb" style="width: 100.0%; height: 100.0%;">Todd Park, West Charlotte</div>`)[0];
+            popup_aaf51eb86b484d1c82a38ddf99015a34.setContent(html_4fe78649a1434c429c176c809f6eccdb);
+        
+
+        circle_marker_12c1f250099c4d43872d33217d6e8567.bindPopup(popup_aaf51eb86b484d1c82a38ddf99015a34)
+        ;
+
+        
+    
+    
+            var circle_marker_80f1ea218fc849958e1097dbaa8d02f0 = L.circleMarker(
+                [35.265450000000044, -80.86330999999996],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_eeb6ff860352480f9949625b7dd4a0bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4236f68d6a84621aadbbd73ffdc8037 = $(`<div id="html_a4236f68d6a84621aadbbd73ffdc8037" style="width: 100.0%; height: 100.0%;">University Park, West Charlotte</div>`)[0];
+            popup_eeb6ff860352480f9949625b7dd4a0bc.setContent(html_a4236f68d6a84621aadbbd73ffdc8037);
+        
+
+        circle_marker_80f1ea218fc849958e1097dbaa8d02f0.bindPopup(popup_eeb6ff860352480f9949625b7dd4a0bc)
+        ;
+
+        
+    
+    
+            var circle_marker_fdd1bf23fac24c2d937d9408af251df4 = L.circleMarker(
+                [35.25483000000003, -80.85889999999995],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_e4e4a8117f774429b816d7dc6d0f3c85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77978fa4afa145d2afb45e1daf4a7f80 = $(`<div id="html_77978fa4afa145d2afb45e1daf4a7f80" style="width: 100.0%; height: 100.0%;">Washington Heights, West Charlotte</div>`)[0];
+            popup_e4e4a8117f774429b816d7dc6d0f3c85.setContent(html_77978fa4afa145d2afb45e1daf4a7f80);
+        
+
+        circle_marker_fdd1bf23fac24c2d937d9408af251df4.bindPopup(popup_e4e4a8117f774429b816d7dc6d0f3c85)
+        ;
+
+        
+    
+    
+            var circle_marker_9f422685f27e410a958b00c9994476ef = L.circleMarker(
+                [35.234470000000044, -80.86132999999995],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_cf1a1cb9bce24e9eac86e16318656cbc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bfa68862f97c43b184c4bbc5acf69cb0 = $(`<div id="html_bfa68862f97c43b184c4bbc5acf69cb0" style="width: 100.0%; height: 100.0%;">Wesley Heights, West Charlotte</div>`)[0];
+            popup_cf1a1cb9bce24e9eac86e16318656cbc.setContent(html_bfa68862f97c43b184c4bbc5acf69cb0);
+        
+
+        circle_marker_9f422685f27e410a958b00c9994476ef.bindPopup(popup_cf1a1cb9bce24e9eac86e16318656cbc)
+        ;
+
+        
+    
+    
+            var circle_marker_7ab9642e235742e881f6d76730b50b27 = L.circleMarker(
+                [35.214150000000075, -80.85888999999997],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_36301fe2240b4638940522a4b43463ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b6061a5c0924c249d37e74543810988 = $(`<div id="html_9b6061a5c0924c249d37e74543810988" style="width: 100.0%; height: 100.0%;">Wilmore, West Charlotte</div>`)[0];
+            popup_36301fe2240b4638940522a4b43463ad.setContent(html_9b6061a5c0924c249d37e74543810988);
+        
+
+        circle_marker_7ab9642e235742e881f6d76730b50b27.bindPopup(popup_36301fe2240b4638940522a4b43463ad)
+        ;
+
+        
+    
+    
+            var circle_marker_649b2ea2177b441ab3c18fe378ebd300 = L.circleMarker(
+                [35.222860000000026, -80.83795999999995],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_9241193c1ea34400b5d1a7d3908216bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4f8a1409cf34bd0a046f3555c9e2d78 = $(`<div id="html_d4f8a1409cf34bd0a046f3555c9e2d78" style="width: 100.0%; height: 100.0%;">Wick City, West Charlotte</div>`)[0];
+            popup_9241193c1ea34400b5d1a7d3908216bf.setContent(html_d4f8a1409cf34bd0a046f3555c9e2d78);
+        
+
+        circle_marker_649b2ea2177b441ab3c18fe378ebd300.bindPopup(popup_9241193c1ea34400b5d1a7d3908216bf)
+        ;
+
+        
+    
+    
+            var circle_marker_896e0870c627467393f97febdef9392e = L.circleMarker(
+                [35.16408000000007, -80.90211999999997],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_2ae74f723b55491baa3a9e7e6edfdb48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_407c8d2f70cb415e99af06bdd03101e8 = $(`<div id="html_407c8d2f70cb415e99af06bdd03101e8" style="width: 100.0%; height: 100.0%;">Yorkmount Park, West Charlotte</div>`)[0];
+            popup_2ae74f723b55491baa3a9e7e6edfdb48.setContent(html_407c8d2f70cb415e99af06bdd03101e8);
+        
+
+        circle_marker_896e0870c627467393f97febdef9392e.bindPopup(popup_2ae74f723b55491baa3a9e7e6edfdb48)
+        ;
+
+        
+    
+    
+            var circle_marker_b798db3a4ea24c02897f3e3cac0f5c62 = L.circleMarker(
+                [35.229100000000074, -80.81971999999996],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_1713522164f946d7abb434542a743443 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9909611520045c4805195afff0a8d3d = $(`<div id="html_c9909611520045c4805195afff0a8d3d" style="width: 100.0%; height: 100.0%;">Belmont, North Charlotte</div>`)[0];
+            popup_1713522164f946d7abb434542a743443.setContent(html_c9909611520045c4805195afff0a8d3d);
+        
+
+        circle_marker_b798db3a4ea24c02897f3e3cac0f5c62.bindPopup(popup_1713522164f946d7abb434542a743443)
+        ;
+
+        
+    
+    
+            var circle_marker_1b70d43e188c40bcb0aa3680f74fb8cc = L.circleMarker(
+                [35.29180000000008, -80.73795999999999],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_b0a338f2adb94da48c7d6831942f0576 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78c0ce28dc6446d6817ebb2fdc20ecb3 = $(`<div id="html_78c0ce28dc6446d6817ebb2fdc20ecb3" style="width: 100.0%; height: 100.0%;">College Downs, North Charlotte</div>`)[0];
+            popup_b0a338f2adb94da48c7d6831942f0576.setContent(html_78c0ce28dc6446d6817ebb2fdc20ecb3);
+        
+
+        circle_marker_1b70d43e188c40bcb0aa3680f74fb8cc.bindPopup(popup_b0a338f2adb94da48c7d6831942f0576)
+        ;
+
+        
+    
+    
+            var circle_marker_56c9f8fdd836465187a238f9bad6679d = L.circleMarker(
+                [35.34462000000008, -80.82404999999994],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_291dd01ccf7e4064833c636cc97a6c60 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f7e9e70f1324e859d5f48935f4dad7b = $(`<div id="html_8f7e9e70f1324e859d5f48935f4dad7b" style="width: 100.0%; height: 100.0%;">Croft, North Charlotte</div>`)[0];
+            popup_291dd01ccf7e4064833c636cc97a6c60.setContent(html_8f7e9e70f1324e859d5f48935f4dad7b);
+        
+
+        circle_marker_56c9f8fdd836465187a238f9bad6679d.bindPopup(popup_291dd01ccf7e4064833c636cc97a6c60)
+        ;
+
+        
+    
+    
+            var circle_marker_62d4a361b0bc4f72ac5a679f455892d6 = L.circleMarker(
+                [35.29525000000007, -80.79782999999998],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_4b8528cb28e5452d90d51b29406df0ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae0dd4517b6a48afa918f51a3c22ac91 = $(`<div id="html_ae0dd4517b6a48afa918f51a3c22ac91" style="width: 100.0%; height: 100.0%;">Derita, North Charlotte</div>`)[0];
+            popup_4b8528cb28e5452d90d51b29406df0ad.setContent(html_ae0dd4517b6a48afa918f51a3c22ac91);
+        
+
+        circle_marker_62d4a361b0bc4f72ac5a679f455892d6.bindPopup(popup_4b8528cb28e5452d90d51b29406df0ad)
+        ;
+
+        
+    
+    
+            var circle_marker_d8b6e01d69f4425d87ac9f4553f51683 = L.circleMarker(
+                [35.344642082451536, -80.77405886252848],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_eff48d7fff584981804f7921978152d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39f8cc9b76c5470cbc003fadf13cbeed = $(`<div id="html_39f8cc9b76c5470cbc003fadf13cbeed" style="width: 100.0%; height: 100.0%;">Eastfield/Prosperity, North Charlotte</div>`)[0];
+            popup_eff48d7fff584981804f7921978152d7.setContent(html_39f8cc9b76c5470cbc003fadf13cbeed);
+        
+
+        circle_marker_d8b6e01d69f4425d87ac9f4553f51683.bindPopup(popup_eff48d7fff584981804f7921978152d7)
+        ;
+
+        
+    
+    
+            var circle_marker_89674b6d3bf04684bc2cad91d7cdab2a = L.circleMarker(
+                [35.273450000000025, -80.78220999999996],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_99bd4cde83ac46b7bb841557e1dbe255 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a47be2bd12a7417fb95b8d1a2ab7e765 = $(`<div id="html_a47be2bd12a7417fb95b8d1a2ab7e765" style="width: 100.0%; height: 100.0%;">Hidden Valley, North Charlotte</div>`)[0];
+            popup_99bd4cde83ac46b7bb841557e1dbe255.setContent(html_a47be2bd12a7417fb95b8d1a2ab7e765);
+        
+
+        circle_marker_89674b6d3bf04684bc2cad91d7cdab2a.bindPopup(popup_99bd4cde83ac46b7bb841557e1dbe255)
+        ;
+
+        
+    
+    
+            var circle_marker_b9819b242db142d3bf4d2626615dfa16 = L.circleMarker(
+                [35.379110000000026, -80.75997999999998],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_a132757a2dcc47b99fa1ef27c02ec8c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6acc9598c5ef4d30baa8398490c9a092 = $(`<div id="html_6acc9598c5ef4d30baa8398490c9a092" style="width: 100.0%; height: 100.0%;">Highland Creek, North Charlotte</div>`)[0];
+            popup_a132757a2dcc47b99fa1ef27c02ec8c2.setContent(html_6acc9598c5ef4d30baa8398490c9a092);
+        
+
+        circle_marker_b9819b242db142d3bf4d2626615dfa16.bindPopup(popup_a132757a2dcc47b99fa1ef27c02ec8c2)
+        ;
+
+        
+    
+    
+            var circle_marker_81e9ac8aacee4faba7b81da06d64d6bc = L.circleMarker(
+                [35.24045000000007, -80.82836999999995],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_b3704715fa3a4e25a478b9e3778dbf9a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f62aa7a2313c4bdc9e59e6cc213c9291 = $(`<div id="html_f62aa7a2313c4bdc9e59e6cc213c9291" style="width: 100.0%; height: 100.0%;">Lockwood, North Charlotte</div>`)[0];
+            popup_b3704715fa3a4e25a478b9e3778dbf9a.setContent(html_f62aa7a2313c4bdc9e59e6cc213c9291);
+        
+
+        circle_marker_81e9ac8aacee4faba7b81da06d64d6bc.bindPopup(popup_b3704715fa3a4e25a478b9e3778dbf9a)
+        ;
+
+        
+    
+    
+            var circle_marker_0f17a805796349538289bf06ac70b9e1 = L.circleMarker(
+                [35.288310000000024, -80.72169999999994],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_95a8e15ad7664eb39a2e84c3132d0ae8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33a763e198464f6d83c70a18d5a6b2f5 = $(`<div id="html_33a763e198464f6d83c70a18d5a6b2f5" style="width: 100.0%; height: 100.0%;">Newell, North Charlotte</div>`)[0];
+            popup_95a8e15ad7664eb39a2e84c3132d0ae8.setContent(html_33a763e198464f6d83c70a18d5a6b2f5);
+        
+
+        circle_marker_0f17a805796349538289bf06ac70b9e1.bindPopup(popup_95a8e15ad7664eb39a2e84c3132d0ae8)
+        ;
+
+        
+    
+    
+            var circle_marker_f2d9b45a6bcc4028b00a7becbfde8c8c = L.circleMarker(
+                [35.24252000000007, -80.81243999999998],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_94fb08af765f47a0ab86d09dcf1b6f3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d1d8a1ffab14b6f8590d5e179132dec = $(`<div id="html_8d1d8a1ffab14b6f8590d5e179132dec" style="width: 100.0%; height: 100.0%;">NoDa, North Charlotte</div>`)[0];
+            popup_94fb08af765f47a0ab86d09dcf1b6f3e.setContent(html_8d1d8a1ffab14b6f8590d5e179132dec);
+        
+
+        circle_marker_f2d9b45a6bcc4028b00a7becbfde8c8c.bindPopup(popup_94fb08af765f47a0ab86d09dcf1b6f3e)
+        ;
+
+        
+    
+    
+            var circle_marker_0e1e5c61cf174af28e97f3ec9b367a98 = L.circleMarker(
+                [35.312686118161764, -80.85535430388175],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_6df017eebf0646599bcf9d27328e497e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03da2f2fec5d4274992f682ab2611325 = $(`<div id="html_03da2f2fec5d4274992f682ab2611325" style="width: 100.0%; height: 100.0%;">Northlake, North Charlotte</div>`)[0];
+            popup_6df017eebf0646599bcf9d27328e497e.setContent(html_03da2f2fec5d4274992f682ab2611325);
+        
+
+        circle_marker_0e1e5c61cf174af28e97f3ec9b367a98.bindPopup(popup_6df017eebf0646599bcf9d27328e497e)
+        ;
+
+        
+    
+    
+            var circle_marker_e413f87c6c84467bb5675dbdd81d8866 = L.circleMarker(
+                [35.252080000000035, -80.81981999999994],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_a83012cc9ac749ae9205d7aeefd2c2be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b732437a639d4660b3a97dfdeb2f4ed3 = $(`<div id="html_b732437a639d4660b3a97dfdeb2f4ed3" style="width: 100.0%; height: 100.0%;">Tryon Hills, North Charlotte</div>`)[0];
+            popup_a83012cc9ac749ae9205d7aeefd2c2be.setContent(html_b732437a639d4660b3a97dfdeb2f4ed3);
+        
+
+        circle_marker_e413f87c6c84467bb5675dbdd81d8866.bindPopup(popup_a83012cc9ac749ae9205d7aeefd2c2be)
+        ;
+
+        
+    
+    
+            var circle_marker_feb1a77d03b64754814ac3c2150b19f7 = L.circleMarker(
+                [35.29147355876503, -80.75369004641678],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_d04505003ca44b0284369b73147895b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4f09c0960b64e29a2fdaa570a91a4ce = $(`<div id="html_a4f09c0960b64e29a2fdaa570a91a4ce" style="width: 100.0%; height: 100.0%;">University City, North Charlotte</div>`)[0];
+            popup_d04505003ca44b0284369b73147895b6.setContent(html_a4f09c0960b64e29a2fdaa570a91a4ce);
+        
+
+        circle_marker_feb1a77d03b64754814ac3c2150b19f7.bindPopup(popup_d04505003ca44b0284369b73147895b6)
+        ;
+
+        
+    
+    
+            var circle_marker_18d3571be26e4a3c851437e4ea579e57 = L.circleMarker(
+                [35.23694000000006, -80.80992999999995],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_c34df96fdb3740f8ad412e10c0afd6a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f2ea802d0364f5bbc32facb2cc2b3d1 = $(`<div id="html_9f2ea802d0364f5bbc32facb2cc2b3d1" style="width: 100.0%; height: 100.0%;">Villa Heights, North Charlotte</div>`)[0];
+            popup_c34df96fdb3740f8ad412e10c0afd6a9.setContent(html_9f2ea802d0364f5bbc32facb2cc2b3d1);
+        
+
+        circle_marker_18d3571be26e4a3c851437e4ea579e57.bindPopup(popup_c34df96fdb3740f8ad412e10c0afd6a9)
+        ;
+
+        
+    
+    
+            var circle_marker_cb5a92008fee43569a6f6262777621f2 = L.circleMarker(
+                [35.274770000000046, -80.85342999999995],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_e951bbad73654e9a83892bc203560b09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e4d2ef7cf674f48966b95f843fe7a3a = $(`<div id="html_4e4d2ef7cf674f48966b95f843fe7a3a" style="width: 100.0%; height: 100.0%;">Wilson Heights, North Charlotte</div>`)[0];
+            popup_e951bbad73654e9a83892bc203560b09.setContent(html_4e4d2ef7cf674f48966b95f843fe7a3a);
+        
+
+        circle_marker_cb5a92008fee43569a6f6262777621f2.bindPopup(popup_e951bbad73654e9a83892bc203560b09)
+        ;
+
+        
+    
+    
+            var circle_marker_7d7a6833fb884dc58b2d73f8e17c0a31 = L.circleMarker(
+                [35.1927494852982, -80.73125484771963],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_3a23ce0218714120b14d6831f3f02e54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b3b271a670e4823b701110c1ae503a1 = $(`<div id="html_4b3b271a670e4823b701110c1ae503a1" style="width: 100.0%; height: 100.0%;">Easthaven, East Charlotte</div>`)[0];
+            popup_3a23ce0218714120b14d6831f3f02e54.setContent(html_4b3b271a670e4823b701110c1ae503a1);
+        
+
+        circle_marker_7d7a6833fb884dc58b2d73f8e17c0a31.bindPopup(popup_3a23ce0218714120b14d6831f3f02e54)
+        ;
+
+        
+    
+    
+            var circle_marker_4fb31c947c914efd8b71fba3ae059b8e = L.circleMarker(
+                [35.21884711100295, -80.75031821770504],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_868a47b9ab8a471c8144b0d0afb40adf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7593010b5b634d04aab8199b505e8e62 = $(`<div id="html_7593010b5b634d04aab8199b505e8e62" style="width: 100.0%; height: 100.0%;">Eastland, East Charlotte</div>`)[0];
+            popup_868a47b9ab8a471c8144b0d0afb40adf.setContent(html_7593010b5b634d04aab8199b505e8e62);
+        
+
+        circle_marker_4fb31c947c914efd8b71fba3ae059b8e.bindPopup(popup_868a47b9ab8a471c8144b0d0afb40adf)
+        ;
+
+        
+    
+    
+            var circle_marker_d734c39f556747d99637e7bb1ce80490 = L.circleMarker(
+                [35.23976000000005, -80.73469999999998],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_79032e7c130743a9b3b519485324cadc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c4c4c44afea4c9099b66034f3cf2164 = $(`<div id="html_0c4c4c44afea4c9099b66034f3cf2164" style="width: 100.0%; height: 100.0%;">Grove Park, East Charlotte</div>`)[0];
+            popup_79032e7c130743a9b3b519485324cadc.setContent(html_0c4c4c44afea4c9099b66034f3cf2164);
+        
+
+        circle_marker_d734c39f556747d99637e7bb1ce80490.bindPopup(popup_79032e7c130743a9b3b519485324cadc)
+        ;
+
+        
+    
+    
+            var circle_marker_cef524a991e24b2e88965f23299c2507 = L.circleMarker(
+                [35.24476000000004, -80.72505999999998],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_9ad8e565d6b5483dac69d2b9e1be3a44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ff79fe4bb0a4ddfb39d49d241cd8dee = $(`<div id="html_5ff79fe4bb0a4ddfb39d49d241cd8dee" style="width: 100.0%; height: 100.0%;">Hickory Grove, East Charlotte</div>`)[0];
+            popup_9ad8e565d6b5483dac69d2b9e1be3a44.setContent(html_5ff79fe4bb0a4ddfb39d49d241cd8dee);
+        
+
+        circle_marker_cef524a991e24b2e88965f23299c2507.bindPopup(popup_9ad8e565d6b5483dac69d2b9e1be3a44)
+        ;
+
+        
+    
+    
+            var circle_marker_884879a015264df9a68cab53eb9a46ce = L.circleMarker(
+                [35.217310000000055, -80.71151999999995],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_86e29032701749529313ef702e107bef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29c68489b23a46b3a9ac80cc009edcd1 = $(`<div id="html_29c68489b23a46b3a9ac80cc009edcd1" style="width: 100.0%; height: 100.0%;">Hickory Ridge, East Charlotte</div>`)[0];
+            popup_86e29032701749529313ef702e107bef.setContent(html_29c68489b23a46b3a9ac80cc009edcd1);
+        
+
+        circle_marker_884879a015264df9a68cab53eb9a46ce.bindPopup(popup_86e29032701749529313ef702e107bef)
+        ;
+
+        
+    
+    
+            var circle_marker_36ffb462da1b4e2bb7091c46ff49f8b1 = L.circleMarker(
+                [35.18969000000004, -80.74448999999998],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_990a85892f194a9d99ef2e1bf768a37b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa1285697d8b45a8b6c005f85ff4e7ac = $(`<div id="html_aa1285697d8b45a8b6c005f85ff4e7ac" style="width: 100.0%; height: 100.0%;">Idlewild, East Charlotte</div>`)[0];
+            popup_990a85892f194a9d99ef2e1bf768a37b.setContent(html_aa1285697d8b45a8b6c005f85ff4e7ac);
+        
+
+        circle_marker_36ffb462da1b4e2bb7091c46ff49f8b1.bindPopup(popup_990a85892f194a9d99ef2e1bf768a37b)
+        ;
+
+        
+    
+    
+            var circle_marker_c73136f66663415dad50f015a265cc05 = L.circleMarker(
+                [35.290031591808486, -80.91775829104137],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_ecf144762dcd44128964db23f7ef310d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca58f92aa3274ea6ac14d2428f83eedf = $(`<div id="html_ca58f92aa3274ea6ac14d2428f83eedf" style="width: 100.0%; height: 100.0%;">Mint Hill, East Charlotte</div>`)[0];
+            popup_ecf144762dcd44128964db23f7ef310d.setContent(html_ca58f92aa3274ea6ac14d2428f83eedf);
+        
+
+        circle_marker_c73136f66663415dad50f015a265cc05.bindPopup(popup_ecf144762dcd44128964db23f7ef310d)
+        ;
+
+        
+    
+    
+            var circle_marker_9920729f94534b21b97ed7f19c1d2aa1 = L.circleMarker(
+                [35.19559000000004, -80.78106999999994],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_653e0b9ec0634a08a61a30dd9d535350 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6f5a47c5de844a29042c281aec15392 = $(`<div id="html_e6f5a47c5de844a29042c281aec15392" style="width: 100.0%; height: 100.0%;">Oakhurst, East Charlotte</div>`)[0];
+            popup_653e0b9ec0634a08a61a30dd9d535350.setContent(html_e6f5a47c5de844a29042c281aec15392);
+        
+
+        circle_marker_9920729f94534b21b97ed7f19c1d2aa1.bindPopup(popup_653e0b9ec0634a08a61a30dd9d535350)
+        ;
+
+        
+    
+    
+            var circle_marker_323e97848c5a4d8192f986824c853b9b = L.circleMarker(
+                [35.23503000000005, -80.80169999999998],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_eee672bfe86a4d34a72aa1433d3afc95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee6a490af0ef47d7aa7a2a403cfdd2ed = $(`<div id="html_ee6a490af0ef47d7aa7a2a403cfdd2ed" style="width: 100.0%; height: 100.0%;">Plaza Hills, East Charlotte</div>`)[0];
+            popup_eee672bfe86a4d34a72aa1433d3afc95.setContent(html_ee6a490af0ef47d7aa7a2a403cfdd2ed);
+        
+
+        circle_marker_323e97848c5a4d8192f986824c853b9b.bindPopup(popup_eee672bfe86a4d34a72aa1433d3afc95)
+        ;
+
+        
+    
+    
+            var circle_marker_4477e81659674175ba55ed2152febbc4 = L.circleMarker(
+                [35.226170000000025, -80.80264999999997],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_428ca5872935435f8cc65faf7c2f08ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64fbaa85262442e49092082311541cf5 = $(`<div id="html_64fbaa85262442e49092082311541cf5" style="width: 100.0%; height: 100.0%;">Plaza-Midwood, East Charlotte</div>`)[0];
+            popup_428ca5872935435f8cc65faf7c2f08ea.setContent(html_64fbaa85262442e49092082311541cf5);
+        
+
+        circle_marker_4477e81659674175ba55ed2152febbc4.bindPopup(popup_428ca5872935435f8cc65faf7c2f08ea)
+        ;
+
+        
+    
+    
+            var circle_marker_61431ee3c87549ceb3987fe482275e61 = L.circleMarker(
+                [35.30192255708396, -80.93018983037207],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_d0debc5a626f4318840d3fef4335bab0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e473d72fb8d4cd5a11636b5d634dba8 = $(`<div id="html_3e473d72fb8d4cd5a11636b5d634dba8" style="width: 100.0%; height: 100.0%;">Ravenwood, East Charlotte</div>`)[0];
+            popup_d0debc5a626f4318840d3fef4335bab0.setContent(html_3e473d72fb8d4cd5a11636b5d634dba8);
+        
+
+        circle_marker_61431ee3c87549ceb3987fe482275e61.bindPopup(popup_d0debc5a626f4318840d3fef4335bab0)
+        ;
+
+        
+    
+    
+            var circle_marker_34506d09903c4b5cb615b42df65d58ac = L.circleMarker(
+                [35.25556519713013, -80.65172533103652],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_f2f291cbe0fb4d8792eb2f0dc92b6bba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67be14439df8413db8e05348c1fbcab6 = $(`<div id="html_67be14439df8413db8e05348c1fbcab6" style="width: 100.0%; height: 100.0%;">Reedy Creek, East Charlotte</div>`)[0];
+            popup_f2f291cbe0fb4d8792eb2f0dc92b6bba.setContent(html_67be14439df8413db8e05348c1fbcab6);
+        
+
+        circle_marker_34506d09903c4b5cb615b42df65d58ac.bindPopup(popup_f2f291cbe0fb4d8792eb2f0dc92b6bba)
+        ;
+
+        
+    
+    
+            var circle_marker_2f393f58141e495190bfba3c1786eab1 = L.circleMarker(
+                [35.23968000000008, -80.78843999999998],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_b39d1a7c5d984afeb681b319b77cffdc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_650e7ded1da541a7890d0127a00bdb60 = $(`<div id="html_650e7ded1da541a7890d0127a00bdb60" style="width: 100.0%; height: 100.0%;">Shamrock, East Charlotte</div>`)[0];
+            popup_b39d1a7c5d984afeb681b319b77cffdc.setContent(html_650e7ded1da541a7890d0127a00bdb60);
+        
+
+        circle_marker_2f393f58141e495190bfba3c1786eab1.bindPopup(popup_b39d1a7c5d984afeb681b319b77cffdc)
+        ;
+
+        
+    
+    
+            var circle_marker_150319100e6144cd9be4a910234cccfd = L.circleMarker(
+                [35.136870000000044, -80.75124999999997],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_c4f8d95112b8453d93e495b6b3e55bd3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd89cee5bd0e4dc0b87a6a98fc5b8ced = $(`<div id="html_dd89cee5bd0e4dc0b87a6a98fc5b8ced" style="width: 100.0%; height: 100.0%;">Sardis Woods, East Charlotte</div>`)[0];
+            popup_c4f8d95112b8453d93e495b6b3e55bd3.setContent(html_dd89cee5bd0e4dc0b87a6a98fc5b8ced);
+        
+
+        circle_marker_150319100e6144cd9be4a910234cccfd.bindPopup(popup_c4f8d95112b8453d93e495b6b3e55bd3)
+        ;
+
+        
+    
+    
+            var circle_marker_6391cc868886447b941cadd379070a53 = L.circleMarker(
+                [35.204480000000046, -80.76933999999994],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_5d5c502e977b48bea0b4f1fd43e541c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_770aa9846aeb4884a70447ebf9d63f25 = $(`<div id="html_770aa9846aeb4884a70447ebf9d63f25" style="width: 100.0%; height: 100.0%;">Sheffield Park, East Charlotte</div>`)[0];
+            popup_5d5c502e977b48bea0b4f1fd43e541c1.setContent(html_770aa9846aeb4884a70447ebf9d63f25);
+        
+
+        circle_marker_6391cc868886447b941cadd379070a53.bindPopup(popup_5d5c502e977b48bea0b4f1fd43e541c1)
+        ;
+
+        
+    
+    
+            var circle_marker_e4064997c0e944e0945c7e1bf602231d = L.circleMarker(
+                [35.17068000000006, -80.78543999999994],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_59e0ff07fd964d43940bb546f8c45d18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e46c985b5d64873b6c22f4c615b8669 = $(`<div id="html_7e46c985b5d64873b6c22f4c615b8669" style="width: 100.0%; height: 100.0%;">Sherwood Forest, East Charlotte</div>`)[0];
+            popup_59e0ff07fd964d43940bb546f8c45d18.setContent(html_7e46c985b5d64873b6c22f4c615b8669);
+        
+
+        circle_marker_e4064997c0e944e0945c7e1bf602231d.bindPopup(popup_59e0ff07fd964d43940bb546f8c45d18)
+        ;
+
+        
+    
+    
+            var circle_marker_5952544b7c454f37b137bd587bf60335 = L.circleMarker(
+                [35.15827000000007, -80.76386999999994],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_4959d2d5e1534cea9c00a937bfd2573e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f35ed5c514249f1823d3163d1c310be = $(`<div id="html_0f35ed5c514249f1823d3163d1c310be" style="width: 100.0%; height: 100.0%;">Stonehaven, East Charlotte</div>`)[0];
+            popup_4959d2d5e1534cea9c00a937bfd2573e.setContent(html_0f35ed5c514249f1823d3163d1c310be);
+        
+
+        circle_marker_5952544b7c454f37b137bd587bf60335.bindPopup(popup_4959d2d5e1534cea9c00a937bfd2573e)
+        ;
+
+        
+    
+    
+            var circle_marker_23ef09dceb8c497dba358b97d0581350 = L.circleMarker(
+                [35.223190000000045, -80.76319999999998],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_1d3b14afd08141e9ab4307691c3fa97c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c210adb2ea8b48238261946a3a4bc9db = $(`<div id="html_c210adb2ea8b48238261946a3a4bc9db" style="width: 100.0%; height: 100.0%;">Windsor Park, East Charlotte</div>`)[0];
+            popup_1d3b14afd08141e9ab4307691c3fa97c.setContent(html_c210adb2ea8b48238261946a3a4bc9db);
+        
+
+        circle_marker_23ef09dceb8c497dba358b97d0581350.bindPopup(popup_1d3b14afd08141e9ab4307691c3fa97c)
+        ;
+
+        
+    
+    
+            var circle_marker_f12f24c7baa34d99a2d3782ef16ad0b2 = L.circleMarker(
+                [35.176321980146774, -80.80846304288534],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_4c9cf082c768404f8505035309901122 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3d02eac88ea401d8c1606a830e1324a = $(`<div id="html_b3d02eac88ea401d8c1606a830e1324a" style="width: 100.0%; height: 100.0%;">Coventry Woods, East Charlotte</div>`)[0];
+            popup_4c9cf082c768404f8505035309901122.setContent(html_b3d02eac88ea401d8c1606a830e1324a);
+        
+
+        circle_marker_f12f24c7baa34d99a2d3782ef16ad0b2.bindPopup(popup_4c9cf082c768404f8505035309901122)
+        ;
+
+        
+    
+    
+            var circle_marker_a853ac5c17184bf39c2fece8c67666e5 = L.circleMarker(
+                [35.24339087073548, -80.70115976607114],
+                {"bubblingMouseEvents": true, "color": "magenta", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "magenta", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_1ce57d6e2c924672970c7e2cd6a02924 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a9e52468c814d4a900c50005e5676d8 = $(`<div id="html_3a9e52468c814d4a900c50005e5676d8" style="width: 100.0%; height: 100.0%;">Uptown, Center City</div>`)[0];
+            popup_1ce57d6e2c924672970c7e2cd6a02924.setContent(html_3a9e52468c814d4a900c50005e5676d8);
+        
+
+        circle_marker_a853ac5c17184bf39c2fece8c67666e5.bindPopup(popup_1ce57d6e2c924672970c7e2cd6a02924)
+        ;
+
+        
+    
+    
+            var circle_marker_a0db100570834c30a4e251127ffae6a4 = L.circleMarker(
+                [35.21778000000006, -80.81612999999999],
+                {"bubblingMouseEvents": true, "color": "magenta", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "magenta", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_479fd3799f7c4a3890cd32fc3e2e81b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3e6b1aa243047fa9fd5a2616898f89e = $(`<div id="html_a3e6b1aa243047fa9fd5a2616898f89e" style="width: 100.0%; height: 100.0%;">Elizabeth, Center City</div>`)[0];
+            popup_479fd3799f7c4a3890cd32fc3e2e81b5.setContent(html_a3e6b1aa243047fa9fd5a2616898f89e);
+        
+
+        circle_marker_a0db100570834c30a4e251127ffae6a4.bindPopup(popup_479fd3799f7c4a3890cd32fc3e2e81b5)
+        ;
+
+        
+    
+    
+            var circle_marker_acfb6d435f58435795229746efa4a9d2 = L.circleMarker(
+                [36.158259278576864, -86.79949709364477],
+                {"bubblingMouseEvents": true, "color": "magenta", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "magenta", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_4af50bcc83e343e4bb229f168277b375 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_626bffdc9c5c444fa45fcce8dcfe55db = $(`<div id="html_626bffdc9c5c444fa45fcce8dcfe55db" style="width: 100.0%; height: 100.0%;">Midtown, Center City</div>`)[0];
+            popup_4af50bcc83e343e4bb229f168277b375.setContent(html_626bffdc9c5c444fa45fcce8dcfe55db);
+        
+
+        circle_marker_acfb6d435f58435795229746efa4a9d2.bindPopup(popup_4af50bcc83e343e4bb229f168277b375)
+        ;
+
+        
+    
+    
+            var circle_marker_15b919c6a5124ded80ec065a5a37f6ff = L.circleMarker(
+                [-27.471709999999973, 153.02556000000004],
+                {"bubblingMouseEvents": true, "color": "magenta", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "magenta", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_b04187148e064e8ab6e4a534291ce6df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1aaee4133e624ab68f1d9f174be30112 = $(`<div id="html_1aaee4133e624ab68f1d9f174be30112" style="width: 100.0%; height: 100.0%;">^ archive, Center City</div>`)[0];
+            popup_b04187148e064e8ab6e4a534291ce6df.setContent(html_1aaee4133e624ab68f1d9f174be30112);
+        
+
+        circle_marker_15b919c6a5124ded80ec065a5a37f6ff.bindPopup(popup_b04187148e064e8ab6e4a534291ce6df)
+        ;
+
+        
+    
+    
+            var circle_marker_9edd13f3c2da4730a29b7224e4ee5dc6 = L.circleMarker(
+                [35.222860000000026, -80.83795999999995],
+                {"bubblingMouseEvents": true, "color": "magenta", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "magenta", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_510e5ffdb7fa44a596bcf6747cc6d181 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb31492b94094aa68909488bbad81dba = $(`<div id="html_fb31492b94094aa68909488bbad81dba" style="width: 100.0%; height: 100.0%;">^ &#34;US, Center City</div>`)[0];
+            popup_510e5ffdb7fa44a596bcf6747cc6d181.setContent(html_fb31492b94094aa68909488bbad81dba);
+        
+
+        circle_marker_9edd13f3c2da4730a29b7224e4ee5dc6.bindPopup(popup_510e5ffdb7fa44a596bcf6747cc6d181)
+        ;
+
+        
+    
+    
+            var circle_marker_3b4d1726d2934368b62dbac29b3a69a2 = L.circleMarker(
+                [35.222860000000026, -80.83795999999995],
+                {"bubblingMouseEvents": true, "color": "magenta", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "magenta", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_6d2a9c897abf4354929b726f307b53d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c63c1416850a4e0eb1746565825eb02a = $(`<div id="html_c63c1416850a4e0eb1746565825eb02a" style="width: 100.0%; height: 100.0%;">v, Center City</div>`)[0];
+            popup_6d2a9c897abf4354929b726f307b53d1.setContent(html_c63c1416850a4e0eb1746565825eb02a);
+        
+
+        circle_marker_3b4d1726d2934368b62dbac29b3a69a2.bindPopup(popup_6d2a9c897abf4354929b726f307b53d1)
+        ;
+
+        
+    
+    
+            var circle_marker_85644325bda14e6a9c3706487ea0b79b = L.circleMarker(
+                [35.222860000000026, -80.83795999999995],
+                {"bubblingMouseEvents": true, "color": "magenta", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "magenta", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d135b930ac194edeb1f9247357bd12fa);
+        
+    
+        var popup_fa8e7e11018c4c1e9673b910d6372c21 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9bc4b0a4ed32464b9d4586bbe9572e95 = $(`<div id="html_9bc4b0a4ed32464b9d4586bbe9572e95" style="width: 100.0%; height: 100.0%;">t, Center City</div>`)[0];
+            popup_fa8e7e11018c4c1e9673b910d6372c21.setContent(html_9bc4b0a4ed32464b9d4586bbe9572e95);
+        
+
+        circle_marker_85644325bda14e6a9c3706487ea0b79b.bindPopup(popup_fa8e7e11018c4c1e9673b910d6372c21)
+        ;
+
+        
+    
+</script>

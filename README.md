@@ -26,6 +26,9 @@ For a more contents visit https://christianhallerx.github.io/
 	- [Exploring US Economic Data with a Dashboard](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Exploring_US_Economic_Data_with_Dashboard.ipynb): This project intents to visualize simple time-series data in a dashboard and makes it permanently available in an S3 bucket.<br/>Libraries: Bokeh.
 	
 	- [Toronto Neighborhoods Analysis](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Toronto_Neighborhoods_Analysis.ipynb): The project explores the Wikipedia data on Toronto (Canada) neighbourhoods with the post code M and will create labelled, interactive maps.<br/>Libraries: Pandas, BeautifulSoup, Folium.
+	
+	- [Shopping Mall development in Charlotte, North Carolina, U.S.A.](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/ShoppingMallDevelopment/Charlotte_new_mall.ipynb): Wikipedia citi data and Foursquare data on shopping malls is compared and clustered by similarity to offer insight where new shopping malls may be a good fit.<br/>Libraries: Pandas, BeautifulSoup, SciKit-Learn, Foursquare-API, ESRI geocoding, Folium.
+
 
 
 - Computer Vision
