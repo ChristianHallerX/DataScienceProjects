@@ -27,7 +27,7 @@ For a more contents visit https://christianhallerx.github.io/
 	
 	- [Toronto Neighborhoods Analysis](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Toronto_Neighborhoods_Analysis.ipynb): The project explores the Wikipedia data on Toronto (Canada) neighbourhoods with the post code M and will create labelled, interactive maps.<br/>Libraries: Pandas, BeautifulSoup, Folium.
 	
-	- [Shopping Mall development in Charlotte, North Carolina, U.S.A.](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/ShoppingMallDevelopment/Charlotte_new_mall.ipynb): Wikipedia citi data and Foursquare data on shopping malls is compared and clustered by similarity to offer insight where new shopping malls may be a good fit.<br/>Libraries: Pandas, BeautifulSoup, SciKit-Learn, Foursquare-API, ESRI geocoding, Folium.
+	- [Shopping Mall development in Charlotte, North Carolina, U.S.A.](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/ShoppingMallDevelopment/Charlotte_new_mall.ipynb): City and Foursquare data on shopping malls is compared and knn-clustered by shopping-mall density per neighborhood to offer insight where new shopping malls may be a good fit.<br/>Libraries: Pandas, BeautifulSoup, SciKit-Learn, Foursquare-API, ESRI geocoding, Folium.
 
 
 
