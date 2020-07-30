@@ -55,4 +55,4 @@ For a more contents visit https://christianhallerx.github.io/
 	
 	- [Drowsiness Detection in Real Time](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Drowsiness_detection_main.ipynb): Detect closed eyes in real-time video footage, such as a webcam feed.<br/>Modules: OpenCV.
 	
-	- [Image Mulitclass Classification in TensorFlow: Rock - Paper - Scissors](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/TensorFlow_rock_paper_scissors.ipynb): Detect closed eyes in real-time video footage, such as a webcam feed.<br/>Modules: OpenCV.
+	- [Image Mulitclass Classification in TensorFlow: Rock - Paper - Scissors](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/TensorFlow_rock_paper_scissors.ipynb): A deep-learning model predicts if you are showing it a Rock-hand, Paper-hand, or Scissor-hand. Trained with computer-generated image data.<br/>Modules: TensorFlow, Keras, Matplotlib.
