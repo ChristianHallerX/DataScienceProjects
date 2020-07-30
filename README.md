@@ -19,7 +19,8 @@ For a more contents visit https://christianhallerx.github.io/
 	
 	- [Time Series Modeling - Sunspot Activity](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Sun_Spot_Activity_TimeSeries.ipynb): The Sunspot Activity project examines making time series predictions using LSTM and other deep learning networks. Sunspots are dark spots on the sun, associated with lower temperature that were recorded scientifically since the 1700s.<br/>Modules: TensorFlow, Keras, NumPy, Pandas, Matplotlib.
 	
-	
+	- [Brent Crude Oil price prediction with LSTM](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Brent_crude_prediction.ipynb): Price time-series modeling with LSTM and comparison of performance of Mean Absolute Error and Mean Square Error.<br/>Modules: TensorFlow, Keras.	
+
 
 
 - Natural Language Processing
@@ -51,8 +52,6 @@ For a more contents visit https://christianhallerx.github.io/
 	- [A simple model for Dogs vs. Cats Convolutional Neuronal Network (CNN) Part I](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/TF_CatsVsDogsI.ipynb): A 2,000 images dataset of cat and dogs pictures from Kaggle trained for 2-category classification.<br/>Modules: TensorFlow, Keras.
 	
 	- [A simple model for Dogs vs. Cats Convolutional Neuronal Network (CNN) Part II](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/TF_CatsVsDogsII.ipynb): This project expands on Part I with transfer learning from publicly-available neural net Inception V3.<br/>Modules: TensorFlow, Keras.
-	
-	- [Brent Crude Oil price prediction with LSTM](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Brent_crude_prediction.ipynb): Price time-series modeling with LSTM and comparison of performance of Mean Absolute Error and Mean Square Error.<br/>Modules: TensorFlow, Keras.
 	
 	- [Drowsiness Detection in Real Time](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Drowsiness_detection_main.ipynb): Detect closed eyes in real-time video footage, such as a webcam feed.<br/>Modules: OpenCV.
 	
