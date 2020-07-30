@@ -17,7 +17,7 @@ For a more contents visit https://christianhallerx.github.io/
 	
 	- [Sonar (chirp) Data Classification of Underwater Mines and Rocks](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Sonar_classification_NN_GridSearch.ipynb): Train neural networks on sonar data. Prediction will distinguish two classes: rock and mine (i.e., metal surface). Use various neural network designs and a grid searches on each design to find an optimal model.<br/>Libraries: SciKit-Learn, TensorFlow, Keras, NumPy, Pandas, Matplotlib.
 	
-	- [Time Series Modeling: Sunspot Activity](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Sonar_classification_NN_GridSearch.ipynb): Examine making time series predictions using the scientific sunspot dataset.<br/>Libraries: TensorFlow, Keras, NumPy, Pandas, Matplotlib.
+	- [Time Series Modeling: Sunspot Activity](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Sun_Spot_Activity_TimeSeries.ipynb): Examine making time series predictions using the scientific sunspot dataset.<br/>Libraries: TensorFlow, Keras, NumPy, Pandas, Matplotlib.
 	
 
 
