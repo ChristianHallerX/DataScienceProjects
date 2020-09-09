@@ -8,4 +8,4 @@ The dataset, along with instructions were made available online in an article in
 
 In 2017, the results of the SEG competition were published in the <a href="https://doi.org/10.1190/tle36030267.1" target="_blank">SEG Leading Edge journal</a> including <a href="https://github.com/seg/2016-ml-contest" target="_blank">all submission files</a> for contestants to learn from each other. Teams were allowed to send new and improved models.
 
-![](https://raw.githubusercontent.com/ChristianHallerX/ChristianHallerX.github.io/master/assets/img/research/ML_Facies/SHRIMPLIN.png)
+![](DataScienceProjects/SEG_Facies_Classification/STUART_comparison.png)
