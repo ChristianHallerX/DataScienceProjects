@@ -35,6 +35,8 @@ For a more contents visit https://christianhallerx.github.io/
 
 - Data Analysis and Visualisation
 
+	- [Smart AirBnB booking in Berlin (dataset 2020-08-30)](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/AirBNB_Berlin.ipynb): Analysis of the price variability in Berlin's AirBnB listings scraped in August 2020. A huge data set. Which district, which amenities, and what time of the year are best value?.<br/>Modules: Pandas, Matplotlib, Seaborn, Scikit-Learn.
+
 	- [Exploring US Economic Data with a Dashboard](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Exploring_US_Economic_Data_with_Dashboard.ipynb): This project intents to visualize simple time-series data in a dashboard and makes it permanently available in an S3 bucket.<br/>Modules: Bokeh.
 	
 	- [Toronto Neighborhoods Analysis](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Toronto_Neighborhoods_Analysis.ipynb): The project explores the Wikipedia data on Toronto (Canada) neighbourhoods with the post code M and will create labelled, interactive maps.<br/>Modules: Pandas, BeautifulSoup, Folium.
@@ -44,7 +46,10 @@ For a more contents visit https://christianhallerx.github.io/
 	- [Market Analysis for Tech Stocks](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Stock_Market_Analysis.ipynb): Ingest, visualize, evaluate risk, and Monte-Carlo simulate prices for some technology stocks: Apple, Google, Microsoft, Amazon.<br/>Modules: Pandas, Numpy, Matplotlib, Seaborn.
 	
 	- [911 Calls Exploration (dataset 2020-07-29)](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/911_Calls.ipynb): This exploration will analyze the emergency call (911) dataset from Kaggle containing Fire, Traffic, Emergency Medical Services (EMS) incidents for Montgomery County, Pennsylvania.<br/>Modules: Pandas, Matplotlib, Seaborn.
-
+	
+	
+	
+	
 
 
 - Computer Vision
