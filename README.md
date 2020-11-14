@@ -2,7 +2,7 @@
 
 Repository containing portfolio of data science projects completed by me for academic, self learning, and hobby purposes. Presented in the form of Jupyter Notebooks.
 
-For a more contents visit https://christianhallerx.github.io/
+For a more contents visit https://christianhaller.me
 
 
 ## Contents
