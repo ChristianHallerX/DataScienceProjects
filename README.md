@@ -7,7 +7,7 @@ For a more contents visit https://www.christianhaller.me/
 
 ## Contents
 
-- Machine Learning
+### Machine Learning
 
 	- [Detecting Parkinson’s Disease](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Detecting_Parkinsons.ipynb): Classifying speech recordings of PD patients and healthy candidates.<br/>Modules: XGBoost.
 
@@ -23,7 +23,7 @@ For a more contents visit https://www.christianhaller.me/
 
 
 
-- Natural Language Processing
+### Natural Language Processing
 
 	- [Three-Way Sentiment Analysis for Twitter Tweets](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Three-Way%20Sentiment%20Analysis%20for%20Tweets.ipynb): Twitter sentiment analysis (positive, negative, neutral) classification model for tweets, without using NLTK's sentiment analysis engine.<br/>Modules: NLTK, SciKit-Learn.
 	
@@ -33,7 +33,7 @@ For a more contents visit https://www.christianhaller.me/
 	
 
 
-- Data Analysis and Visualisation
+### Data Analysis and Visualisation
 
 	- [Smart AirBnB booking in Berlin (dataset 2020-08-30)](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/AirBNB_Berlin.ipynb): Analysis of the price variability in Berlin's AirBnB listings scraped in August 2020. A huge data set. Which district, which amenities, and what time of the year are best value?.<br/>Modules: Pandas, Matplotlib, Seaborn, Scikit-Learn.
 
@@ -52,7 +52,7 @@ For a more contents visit https://www.christianhaller.me/
 	
 
 
-- Computer Vision
+### Computer Vision
 
 	- [A simple model for Dogs vs. Cats Convolutional Neuronal Network (CNN) Part I](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/TF_CatsVsDogsI.ipynb): A 2,000 images dataset of cat and dogs pictures from Kaggle trained for 2-category classification.<br/>Modules: TensorFlow, Keras.
 	
