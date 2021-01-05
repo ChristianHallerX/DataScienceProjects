@@ -13,5 +13,6 @@ Key questions to be answered are:
 2. Breakdown of listings by room type.
 3. What is the median price of a listing by district and room type.
 4. What is the average difference in a listing price between superhost and non-superhost status for each room type and district?
+5. Train a price prediction model (regressor).
 
-![](https://raw.githubusercontent.com/ChristianHallerX/ChristianHallerX.github.io/master/assets/img/research/Berlin_AirBnB/price_distribution.png)
+![](https://raw.githubusercontent.com/ChristianHallerX/DataScienceProjects/master/AirBNB_Berlin/price_distribution.png)
