@@ -9,10 +9,10 @@ The AirBnB marketplace contains different categories of accomodations that can b
 
 Goal of this project is to wrangle the raw AirBnB listings for Berlin available for Summer 2020 and analyze their structure.
 Key questions to be answered are:
-A. How are the prices distributed?
-B. Breakdown of listings by room type.
-C. What is the median price of a listing by district and room type.
-D. What is the average difference in a listing price between superhost and non-superhost status for each room type and district?
-E. Train a price prediction model (regressor).
+1. How are the prices distributed?
+2. Breakdown of listings by room type.
+3. What is the median price of a listing by district and room type.
+4. What is the average difference in a listing price between superhost and non-superhost status for each room type and district?
+5. Train a price prediction model (regressor).
 
 ![](https://raw.githubusercontent.com/ChristianHallerX/DataScienceProjects/master/AirBNB_Berlin/price_distribution.png)
