@@ -5,10 +5,13 @@ For more information about this open data and how to obtain the original version
 
 
 ## Background
-> The Volve field in the Norwegian North Sea: 2008—2016. 
-> The Volve oil field, located 200 kilometres west of Stavanger at the southern end of the Norwegian sector, was decommissioned in September 2016 after 8.5 years in operation, more than twice as long as originally planned. 
-> The development was based on production from the Mærsk Inspirer jack-up rig, with Navion Saga used as a storage ship to hold crude oil before export. Gas was piped to the Sleipner A platform for final processing and export. Volve reached a recovery rate of 54% and in March 2016 the licence decided to shut down its production permanently. The field was originally scheduled for 3-5 years of operation.
-><a href="https://www.equinor.com/en/what-we-do/norwegian-continental-shelf-platforms/volve.html" target="_blank">Reference</a>
+The Volve field in the Norwegian North Sea: 2008—2016. 
+The Volve oil field, located 200 kilometres west of Stavanger (Norway) at the southern end of the Norwegian sector, was decommissioned in September 2016 after 8.5 years in operation, more than twice as long as originally planned. 
+The development was based on production from the Mærsk Inspirer jack-up rig, with Navion Saga used as a storage ship to hold crude oil before export.
+Gas was piped to the Sleipner A platform for final processing and export.
+Volve reached a recovery rate of 54% and in March 2016 the licence decided to shut down its production permanently.
+The field was originally scheduled for 3-5 years of operation.
+<a href="https://www.equinor.com/en/what-we-do/norwegian-continental-shelf-platforms/volve.html" target="_blank">Reference</a>
 
 
 ## Data
@@ -63,8 +66,10 @@ Scores of all Gradient Boosted Regression models were >0.95. Tuning improved the
 
 Best ranked model:
 
-* mean_test_score R2: 0.973404 and 
+* mean_test_score R2: 0.973404
 * std_test_score: 0.001976 	
 
 ![result img log2](results/log2_pred.jpg)
+
+
 ![result img log5](results/log5_pred.jpg)
