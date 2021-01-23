@@ -1,14 +1,27 @@
 # Equinor_Volve_LogML
 
-This repository is my exploration on bringing machine learning to "Volve" oil field open dataset disclosed to the public by Equinor since 2018. For more information about this dataset and how to access the original database, see [here](https://www.equinor.com/en/how-and-why/digitalisation-in-our-dna/volve-field-data-village-download.html).
+This repository is my exploration on bringing machine learning to the Equinor "Volve" geophysical/geological dataset, which was opened up to be explored by the public in 2018.
+For more information about this open data and how to obtain the original version visit [here](https://www.equinor.com/en/how-and-why/digitalisation-in-our-dna/volve-field-data-village-download.html).
+
 
 ## Background
 > The Volve field in the Norwegian North Sea: 2008—2016. 
 > The Volve oil field, located 200 kilometres west of Stavanger at the southern end of the Norwegian sector, was decommissioned in September 2016 after 8.5 years in operation, more than twice as long as originally planned. 
 > The development was based on production from the Mærsk Inspirer jack-up rig, with Navion Saga used as a storage ship to hold crude oil before export. Gas was piped to the Sleipner A platform for final processing and export. Volve reached a recovery rate of 54% and in March 2016 the licence decided to shut down its production permanently. The field was originally scheduled for 3-5 years of operation.
-> https://www.equinor.com/en/what-we-do/norwegian-continental-shelf-platforms/volve.html
+><a href="https://www.equinor.com/en/what-we-do/norwegian-continental-shelf-platforms/volve.html" target="_blank">Reference</a>
 
-## Data:
+
+## Data
+
+Five .LAS well logs
+
+- 15_9-F-1A
+- 15_9-F-1B
+- 15_9-F-1C
+- 15_9-F-11A
+- 15_9-F-11B
+
+The .LAS containing the following feature columns:
 
 - Depth [m] Below Surface
 - NPHI [vol/vol] Neutron Porosity (not not calibrated in basic physical units) <a href="https://www.glossary.oilfield.slb.com/en/terms/n/neutron_porosity" target="_blank">Reference</a>
@@ -19,23 +32,28 @@ This repository is my exploration on bringing machine learning to "Volve" oil fi
 - CALI [inches] Caliper = Borehole Diameter. <a href="https://www.glossary.oilfield.slb.com/en/terms/c/caliper_log" target="_blank">Reference</a>
 - DT [μs/ft] Delta Time, Sonic Log, P-wave, interval transit time. <a href="https://en.wikipedia.org/wiki/Sonic_logging" target="_blank">Reference</a>
 
-## Goal:
 
-Wells 15/9-F-11B and 15/9-F-1C have no DT Sonic Log feature.
-Predict Sonic Log (DT)in these two wells.
+## Problem
+
+Wells 15/9-F-11B and 15/9-F-1C lack the DT Sonic Log feature.
+
+
+## Goal
+
+Predict the Sonic Log (DT) in these two wells.
 
 
 ## Workflow
 
-* Well 15/9-F-11A, 15/9-F-11A, and 15/9-F-1B are used as training data.
-* The training data are normalized using Yeo-Johnson method of power transformation, and outliers have been removed using One-Class SVM method.
-* Regressors in *Scikit-Learn* used are: Linear Regression, Random Forest, Support Vector Machine, Decision Tree, Gradient Boosting, and K-Nearest Neighbors.
-* Best performance achieved by Gradient Boosting.
-* Hyperparameter tuning showed the best hyperparameter of GB as follows; `n_estimators`=1,000 and `max_depth`=100
-* Average R² and RMSE score achieved are .95 and .12 
+1 The wells containing the Sonic Log DT are used for training: Well 15/9-F-11A, 15/9-F-11A, and 15/9-F-1B.
+2 Transformation using the Yeo-Johnson method of power transformation.
+3 Outlier removal with the One-Class SVM method.
+5 Best performance achieved by Gradient Boosting.
+6 Hyperparameter tuning showed the best hyperparameter of Gradient Boosting as follows; `n_estimators`=1,000 and `max_depth`=100.
+7 Tune Hyperparameters on train logs and validate on same logs.
+8 Predict Sonic Log DT on test logs 15/9-F-11B and 15/9-F-1C.
 
-**Result:**
 
-The predicted results are written in CSV files; well [15/9-F-11B](https://github.com/yohanesnuwara/volve-machine-learning/blob/main/results/15_9-F-11B_Predicted_DT.csv) and [15/9-F-1](https://github.com/yohanesnuwara/volve-machine-learning/blob/main/results/15_9-F-1C_Predicted_DT.csv)
+## Results
 
-![final-well2](https://user-images.githubusercontent.com/51282928/96087823-aea53500-0eee-11eb-869f-594ff579d528.png)
+Average R2 and RMSE score achieved are .95 and .12 
