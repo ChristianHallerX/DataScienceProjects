@@ -48,15 +48,23 @@ Predict the Sonic Log (DT) in these two wells.
 
 ## Workflow
 
-1 The wells containing the Sonic Log DT are used for training: Well 15/9-F-11A, 15/9-F-11A, and 15/9-F-1B.
-2 Transformation using the Yeo-Johnson method of power transformation.
-3 Outlier removal with the One-Class SVM method.
-5 Best performance achieved by Gradient Boosting.
-6 Hyperparameter tuning showed the best hyperparameter of Gradient Boosting as follows; `n_estimators`=1,000 and `max_depth`=100.
-7 Tune Hyperparameters on train logs and validate on same logs.
-8 Predict Sonic Log DT on test logs 15/9-F-11B and 15/9-F-1C.
+1. The wells containing the Sonic Log DT are used for training: Well 15/9-F-11A, 15/9-F-11A, and 15/9-F-1B.
+2. Transformation using the Yeo-Johnson method of power transformation.
+3. Outlier removal with the One-Class SVM method.
+5. Best performance achieved by Gradient Boosting.
+6. Hyperparameter tuning showed the best hyperparameter of Gradient Boosting as follows; `n_estimators`=1,000 and `max_depth`=100.
+7. Tune Hyperparameters on train logs and score on validation logs (same as training) logs.
+8. Predict Sonic Log DT on test logs 15/9-F-11B and 15/9-F-1C.
 
 
 ## Results
 
-Average R2 and RMSE score achieved are .95 and .12 
+Scores of all Gradient Boosted Regression models were >0.95. Tuning improved the R2 by ~0.025
+
+Best ranked model:
+
+* mean_test_score R2: 0.973404 and 
+* std_test_score: 0.001976 	
+
+![result img log2](results/log2_pred.jpg)
+![result img log5](results/log5_pred.jpg)
