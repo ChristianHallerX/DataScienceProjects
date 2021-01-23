@@ -9,7 +9,11 @@ For a more contents visit https://www.christianhaller.me/
 
 ### Machine Learning
 
+- [Equinor Volve LogML](https://github.com/ChristianHallerX/DataScienceProjects/tree/master/Equinor_Volve_LogML): Predicting missing geophysical logs from an open real-world dataset.<br/>Modules: Scikit-Learn.
+
 - [Detecting Parkinson’s Disease](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/Detecting_Parkinsons.ipynb): Classifying speech recordings of PD patients and healthy candidates.<br/>Modules: XGBoost.
+
+- [SEG Facies Classifiacation](https://github.com/ChristianHallerX/DataScienceProjects/tree/master/SEG_Facies_Classification): Training a model to predict sedimentary facies in a Kansas gas field for the classic SEG competition.<br/>Modules: XGBoost, SciKit-Optimize.
 
 - [House Sales and Price Prediction in King County (Seattle)](https://github.com/ChristianHallerX/DataScienceProjects/blob/master/House_Sales_and_Price_Prediction_King_County(Seattle).ipynb): The project explores different house sales features and regression modelling techniques for optimizing price prediction.<br/>Modules: SciKit-Learn.
 	
