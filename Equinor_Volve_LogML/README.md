@@ -21,16 +21,19 @@ Five .LAS well logs
 - 15_9-F-11A
 - 15_9-F-11B
 
-The .LAS containing the following feature columns:
+The .LAS contain the following feature columns:
 
-- Depth [m] Below Surface
-- NPHI [vol/vol] Neutron Porosity (not not calibrated in basic physical units) <a href="https://www.glossary.oilfield.slb.com/en/terms/n/neutron_porosity" target="_blank">Reference</a>
-- RHOB [g/cm3] Bulk Density. <a href="https://www.sciencedirect.com/topics/engineering/density-log" target="_blank">Reference</a> 
-- GR [API] Gamma Ray radioactive decay (aka shalyness log). <a href="https://www.glossary.oilfield.slb.com/en/terms/g/gamma_ray_log" target="_blank">Reference</a> 
-- RT [ohm*m] Resistivity True. <a href="https://www.glossary.oilfield.slb.com/en/terms/r/resistivity_log" target="_blank">Reference</a> 
-- PEF [barns/electron] PhotoElectric absorption Factor. <a href="https://www.glossary.oilfield.slb.com/en/Terms/p/pef.aspx" target="_blank">Reference</a>
-- CALI [inches] Caliper = Borehole Diameter. <a href="https://www.glossary.oilfield.slb.com/en/terms/c/caliper_log" target="_blank">Reference</a>
-- DT [μs/ft] Delta Time, Sonic Log, P-wave, interval transit time. <a href="https://en.wikipedia.org/wiki/Sonic_logging" target="_blank">Reference</a>
+| Name   | Unit             | Description                                                   | Read More |
+|--------|------------------|---------------------------------------------------------------|-----------|
+| Depth  | [m]              | Below Surface                                                 |           |
+| NPHI   | [vol/vol]        | Neutron Porosity (not not calibrated in basic physical units) |<a href="https://www.glossary.oilfield.slb.com/en/terms/n/neutron_porosity" target="_blank">Reference</a>          |
+| RHOB   | [g/cm3]          | Bulk Density                                                  |<a href="https://www.sciencedirect.com/topics/engineering/density-log" target="_blank">Reference</a>            |
+| GR     | [API]            | Gamma Ray radioactive decay (aka shalyness log)               |<a href="https://www.glossary.oilfield.slb.com/en/terms/g/gamma_ray_log" target="_blank">Reference</a>         |
+| RT     | [ohm*m]          | True Resistivity                                              |<a href="https://www.glossary.oilfield.slb.com/en/terms/r/resistivity_log" target="_blank">Reference</a>          |
+| PEF    | [barns/electron] | PhotoElectric absorption Factor                               |<a href="https://www.glossary.oilfield.slb.com/en/Terms/p/pef.aspx" target="_blank">Reference</a>           |
+| CALI   | [inches]         | Caliper, Borehole Diameter                                    |<a href="https://www.glossary.oilfield.slb.com/en/terms/c/caliper_log" target="_blank">Reference</a>           |
+| DT     | [μs/ft]          | Delta Time, Sonic Log, P-wave, interval transit time          |<a href="https://en.wikipedia.org/wiki/Sonic_logging" target="_blank">Reference</a>           |
+
 
 
 ## Problem
