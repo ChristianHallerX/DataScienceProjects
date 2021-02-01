@@ -1,7 +1,7 @@
 # Equinor Volve LogML
 
 This repository is my exploration on bringing machine learning to the Equinor "Volve" geophysical/geological dataset, which was opened up to be explored by the public in 2018.
-For more information about this open data and how to obtain the original version visit [Equinor's Data Village](https://www.equinor.com/en/how-and-why/digitalisation-in-our-dna/volve-field-data-village-download.html).
+For more information about this open data and how to obtain the original version visit <a href="https://www.equinor.com/en/how-and-why/digitalisation-in-our-dna/volve-field-data-village-download.html" target="_blank">Equinor's Data Village</a>.
 The full dataset contains ~ 40,000 files!
 
 
@@ -25,7 +25,7 @@ Five .LAS well logs
 - 15_9-F-11A
 - 15_9-F-11B
 
-The .LAS contain the following feature columns:
+The .LAS files contain the following feature columns:
 
 | Name   | Unit             | Description                                                   | Read More |
 |--------|------------------|---------------------------------------------------------------|-----------|
